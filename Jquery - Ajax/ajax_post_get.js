@@ -16,8 +16,8 @@
 				
 	    $.ajax({
 	    	type: "POST",
-	        url: urlToken.value,
-	        async: false,
+	        url: "http://bvpvida.dsv.bradseg.com.br/be/oauth/api/v1/account/system-oauth",
+	       	async: false,		
 	        dataType: 'json',
 	        contentType: 'application/json',
 			data: json,
@@ -35,7 +35,7 @@
 				beforeSend: function(request) {
 					request.setRequestHeader("Authorization", "Bearer " + token);
 				},
-				url: urlAceite.value,
+				url: "http://bvpvida.dsv.bradseg.com.br/be/aceite-digital/api/v1/aceite-digital/correntista/02893438792/B71B5767-3DF1-46EE-B1BA-B91BA3008623",
 				async: false,
 				contentType: 'application/json',
 				dataType: 'json',
