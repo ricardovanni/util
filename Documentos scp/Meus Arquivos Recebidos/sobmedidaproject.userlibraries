@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><eclipse-userlibraries version="2">
+    <library name="bsp_webservices" systemlibrary="false">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/axis.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/commons-discovery-0.2.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/gmbal-api-only.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/jaxb-core.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/jaxb-impl.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/jaxrpc.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/jaxws-api.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/jaxws-rt.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/management-api.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/policy.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/saaj.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/stax-ex.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/streambuffer.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bsp/bsp_webservices/wsdl4j.jar"/>
+    </library>
+    <library name="BVP_PEP" systemlibrary="false">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bvp/bvp_pep/ppra8070.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bvp/bvp_pep/ppra8071.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/bvp/bvp_pep/ppra8072.jar"/>
+    </library>
+    <library name="COMMAREA" systemlibrary="false">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/commarea/ctgclient-5.0.jar"/>
+    </library>
+    <library name="IBSP_COM_PARAMETRIZACOES" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_parametrizacoes/BradescoWeb-2.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_parametrizacoes/ib-parametrizacao-campanha.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_parametrizacoes/ib-parametrizacao-filtro.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_parametrizacoes/ib-parametrizacao-menudinamico.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_parametrizacoes/ibpf-parametrizacao-menudinamico.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_parametrizacoes/publicacao-2.0.jar"/>
+    </library>
+    <library name="IBSP_COM_PERSONALIZACAO" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_personalizacao/ib-commons-personalizacao.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_personalizacao/ibpf-commons-personalizacao.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_personalizacao/ibpf-personalizacao-core.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_personalizacao/LF80.jar"/>
+    </library>
+    <library name="IBSP_COM_SEGUROSPREVIDENCIA" systemlibrary="false">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_com_segurosprevidencia/ibsp-cep-wsclient.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_com_segurosprevidencia/ibsp-dadocliente-core.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_com_segurosprevidencia/ibsp-transmissao-wsclient.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_com_segurosprevidencia/PNGA0542.jar"/>
+    </library>
+    <library name="IBSP_COM_SERVICOSEXTERNOS" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_servicosexternos/servicosexternos.jar"/>
+    </library>
+    <library name="IBSP_COM_SUPORTEAUTENTICACAO" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/CLIEXXXX.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/DSXX.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/HDXX.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/HH40.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/ib-jsf-autenticador.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/ib-perfilacesso.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/ib-perfilacesso-menudinamico.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/ibpf-dadocliente-core.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/ibpf-suporteautenticacao-core.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/ib-suporteautenticacao-assinaturaDigital.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/PEC0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/PNGA0540.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/SCAV9030.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_com_suporteautenticacao/VC80.jar"/>
+    </library>
+    <library name="IBSP_CONS_COMPROVANTES" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_cons_comprovantes/ib-jsf-comprovante.jar"/>
+    </library>
+    <library name="IBSP_EXT_COMUNS" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/BRS000A2.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-commons.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-commons-tratado.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-comuns-logs-aop.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-dbcorp.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-jsf-app-components.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-jsf-statemanager.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ib-LogCanalInternet.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ibpf-commons.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ibpf-security-assistant-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ibpf-sessao-core.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ibpf-sessao-securityprovider.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/ibpf-view-handler-loader-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v3_ibpf_ext_comuns/tomahawk-1.1.1.jar"/>
+    </library>
+    <library name="IBSP_EXT_CRIPTOGRAFIA" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/criptoVBV.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/HE40.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/ib-criptalgor.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/ib-criptalgor-pkcs1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/ib-criptografia-utils.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/ibpf-criptografia-comunicacaosegura.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_criptografia/util-cripto-cartoes.jar"/>
+    </library>
+    <library name="IBSP_EXT_GESTAOCONTEUDO" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_gestaoconteudo/ib-gestaoconteudo-base.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_gestaoconteudo/ib-gestaoconteudo-cestaservicos.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_gestaoconteudo/ib-gestaoconteudo-provedorconteudo.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_ext_gestaoconteudo/ib-gestaoconteudo-resourcebundle.jar"/>
+    </library>
+    <library name="IBSP_INFRA_AWB_2.8" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/activation-1.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/antlr-2.7.6.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/asm-1.5.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/asm-attrs-1.5.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/aspectjrt-1.5.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/aspectjweaver-1.5.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-connector-client-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-connector-commarea-2.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-connector-core-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-core-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-jsf-app-components-2.8.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-jsf-app-components-ib-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-jsf-arq-components-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-jsf-custom-components-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-presentation-core-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-security-component-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-services-data-book-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-services-data-commarea-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-services-data-component-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-sso-jdbc-db2-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-utility-component-sei-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/AWB-utils-2.8.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/castor-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/cglib-2.1_3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commarea-1.1.06.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-beanutils-1.7.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-codec-1.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-collections-3.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-digester-1.7.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-el-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-fileupload-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-lang-2.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-logging-1.0.4.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/commons-validator-1.2.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/criptografia-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/cssparser-0.9.5.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/ctgclient-5.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/dom4j-1.6.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/ehcache-1.2.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/freemarker-2.3.6.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/gson-1.4.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/hibernate-3.2.1.ga.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/jcommon-1.0.15.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/jdom-1.0.jar" source="C:/Users/sfgarcia/AppData/Local/Temp/.org.sf.feeling.decompiler1537903991969/source/jdom-1.0-sources.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/jfreechart-1.0.12.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/joesnmp-0.3.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/jstl-1.1.2.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/jta-1.0.1B.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/log4j-1.2.9.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/mail-1.4.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/myfaces-all-1.1.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/oro-2.0.8.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/pdc-ejb-1.2.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/richfaces-api-3.1.6.GA.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/richfaces-impl-3.1.6.GA.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/richfaces-ui-3.1.6.GA.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/sac-1.3.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-2.0.8.jar" source="C:/Users/sfgarcia/AppData/Local/Temp/.org.sf.feeling.decompiler1538572224600/source/spring-2.0.8-sources-1538572775115.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-applicationcontext-utils-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-beans-2.0.8.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-dao-2.0.8.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-jdbc-2.0.8.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-security-acl-2.0.4.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-security-core-2.0.4.jar" source="C:/Users/sfgarcia/AppData/Local/Temp/.org.sf.feeling.decompiler1538572224600/source/spring-security-core-2.0.4-sources-1538575548222.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-security-taglibs-2.0.4.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/spring-web-2.0.8.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/standard-1.1.2.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/struts-1.2.9.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/virtualkey-1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/xalan-2.5.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_awb_2_8/xercesImpl-2.4.0.jar"/>
+    </library>
+    <library name="IBSP_INFRA_COMUM" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_infra_comum/ib-comuns-sei.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/v2_ibpf_infra_comum/ib-flt-security.jar"/>
+    </library>
+    <library name="IBSP_INFRA_COMUM_II" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/BRS000A2.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/br-util-base-v.1.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/br-util-database-v.1.00.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/br-util-format-v.1.11.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/br-util-mainframe-v.1.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/br-util-monitor-v.1.0.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/monitoracao-v1.4b.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_comum_ii/util-cripto-email-20060116-v16.jar"/>
+    </library>
+    <library name="IBSP_INFRA_EXTERNOS" systemlibrary="true">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_externos/commons-httpclient-3.1.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_externos/core-renderer.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_externos/esp-searchapi.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_externos/iText-2.0.8.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_externos/jtidy-r938.jar"/>
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibpf_infra_externos/scpibchallenge_1.6.jar"/>
+    </library>
+    <library name="IBSP_SOBMEDIDA" systemlibrary="false">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/ibsp/ibsp_sobmedida/ibsp-sobmedida-core.jar"/>
+    </library>
+    <library name="ISD_MAINFRAME" systemlibrary="false">
+        <archive path="C:/Fontes/Seguros_Previdencia/ConfiguracaoGeralDesenv/Trunk/suportedbdc_lib/isd/isdapis.redeempresa_comtrace.jar"/>
+    </library>
+</eclipse-userlibraries>

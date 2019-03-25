@@ -1,0 +1,38 @@
+*****************************************************************************************
+LABS1260 - 172.16.43.122 - Websphere Novo
+https://172.16.43.122:9043/ibm/console/logon.jsp
+
+root – Scopus2017
+admWas / admWas2018
+
+*****************************************************************************************
+Labs082 – 172.16.40.215
+https://labs082:9043/ibm/console/logon.jsp
+
+root - Scopus2011
+
+
+*****************************************************************************************
+Unix restart websphere
+killall -9 java
+/suportedbdc/IBM/WebSphere/AppServer/profiles/AppSrv01/bin/stopServer.sh server1
+/suportedbdc/IBM/WebSphere/AppServer/profiles/AppSrv01/bin/startServer.sh server1
+
+/suportedbdc/IBM/WebSphere/AppServer/profiles/AppSrv01/bin/serverStatus.sh server1
+
+Limpar cache
+/suportedbdc/IBM/WebSphere/AppServer/profiles/AppSrv01/bin/osgiCfgInit.sh 
+/suportedbdc/IBM/WebSphere/AppServer/bin/clearClassCache.sh 
+http://www-01.ibm.com/support/docview.wss?uid=swg21460859
+
+******************************************************************
+CONECTAR SYSOUT PUTTY
+
+cd /suportedbdc/IBM/WebSphere/AppServer/profiles/AppSrv01/logs/server1
+tail -f SystemOut.log
+
+
+******************************************************************
+Start Http
+
+opt/IBM/HTTPServer/conf/apachectl -k start -f /opt/IBM/HTTPServer/conf/httpd.conf 

@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": [
+    {
+      "codigoSistemaOrigem": 1,
+      "aceiteDigitalId": "aacd5dd5-fa96-4d4d-92a8-0f8f49b46f1f",
+      "conteudoOrigemJson": {
+        "Cpf": "222.222.222-22",
+        "Nome": "Nome do Segurado",
+        "Sexo": "Masculino",
+        "Produto": "Vida Max",
+        "DadosGerais": {
+          "Plano": "1 - Plano 1",
+          "NroProposta": 555555,
+          "DataProposta": "05/10/2018",
+          "DataFimVigencia": "25/10/2018",
+          "Capital": 500000,
+          "ValorPremio": 158.58,
+          "CodigoSusep": "15454546464444",
+          "TipoCobranca": "Debito em conta corrente",
+          "FrequenciaPagamento": "Mensal",
+          "Email": "email@mail.com",
+          "Celular": "551199999999",
+          "Status": "Aguardando aceite digital",
+          "Banco": "237",
+          "Agencia": "11111",
+          "ContaCorrente": "00051245-2"
+        },
+        "Beneficiarios": [
+          {
+            "NomeBeneficiario": "Nome do Pai",
+            "GrauParentesco": "Pai",
+            "Percentual": 50
+          },
+          {
+            "NomeBeneficiario": "nome da mãe",
+            "GrauParentesco": "Mãe",
+            "Percentual": 50
+          }
+        ],
+        "Coberturas": [
+          {
+            "NomeCobertura": "Morte",
+            "CapitalSegurado": 250000
+          },
+          {
+            "NomeCobertura": "APC",
+            "CapitalSegurado": 250000
+          }
+        ]
+      }
+    }
+  ]
+}
+
+34198.71276 87229.411993 00000.000000 8 76880000059262

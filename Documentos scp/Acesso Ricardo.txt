@@ -1,0 +1,16 @@
+Conta: 43000
+
+http://www.ib3.bradesco.des.scopus.com.br/ibpf/iframe/principal.html?Url=http://scopus.com.br:8080/NOVOIB-Aporte-war/aporte.jsf&CTL=2226281062281490100050
+
+
+http://www.ib3.bradesco.des.scopus.com.br/ibpf/iframe/principal.html?Url=http://scopus.com.br:8080/aceitedigital/aceiteDigitalConsultar.jsf&CTL=2226281062281490100050
+
+
+----------------- MOBILE -------------------------
+
+document.getElementById("agn").value = "3977";
+document.getElementById("ctaDig").value = "430005";
+document.getElementById("senha").value = "1212";
+document.form.submit();
+
+--------------------------------------------------

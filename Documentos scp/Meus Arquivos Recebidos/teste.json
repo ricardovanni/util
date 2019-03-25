@@ -1,0 +1,2131 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "API do Serviço de Previdência",
+    "version": "1.0.0-SNAPSHOT - 2018-11-01 14:17Z",
+    "title": "API do Serviço de Previdência",
+    "termsOfService": "Terms of service",
+    "contact": {
+      "name": "4253684@corpr.bradesco.com.br"
+    },
+    "license": {
+      "name": "License of API"
+    }
+  },
+  "host": "api.bradesco.com.br",
+  "basePath": "/v1",
+  "tags": [
+    {
+      "name": "Propostas",
+      "description": "ÁGORA - Propostas"
+    },
+    {
+      "name": "beneficio-controller",
+      "description": "Beneficio de Acumulacao"
+    }
+  ],
+  "paths": {
+    "/agora/associarBeneficioRisco/": {
+      "post": {
+        "tags": [
+          "beneficio-controller"
+        ],
+        "summary": "Associar Beneficio de Risco",
+        "operationId": "associarbeneficioriscoUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "canal",
+            "in": "header",
+            "description": "Canal de acesso",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "origem",
+            "in": "header",
+            "description": "Codigo da juncao funcional do funcionario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "usuario",
+            "in": "header",
+            "description": "Usuario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "identFuncionario",
+            "in": "header",
+            "description": "Identificacao se o usuario e funcionario da Organizacao S-SIM e N-NAO",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "corretor",
+            "in": "header",
+            "description": "Codigo do corretor",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "identRepresentante",
+            "in": "header",
+            "description": "Identificacao se e representante ou corretor 1 - Corretor e 2-Representante",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "request",
+            "description": "request",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AssociarBeneficioRiscoRequest"
+            }
+          },
+          {
+            "name": "access-token",
+            "in": "header",
+            "description": "API access token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/AssociarBeneficioRiscoResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbbiden"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Business Error.",
+            "schema": {
+              "$ref": "#/definitions/AssociarBeneficioRiscoErrorResponse"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/agora/cancelapropostadigitada/": {
+      "delete": {
+        "tags": [
+          "Propostas"
+        ],
+        "summary": "CancelaPropostaDigitada",
+        "operationId": "cancelapropostadigitadaUsingDELETE",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "canal",
+            "in": "header",
+            "description": "Canal de acesso",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "origem",
+            "in": "header",
+            "description": "Código da junção funcional do funcionário",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "description": "Código da junção funcional do funcionário",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "identificaFuncionario",
+            "in": "header",
+            "description": "Usuário é funcionário da organização? S(SIM) N(NÃO)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "codigoCorretor",
+            "in": "header",
+            "description": "Código do corretor",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "identificaRepresentante",
+            "in": "header",
+            "description": "Identificação se é Representante ou Corretor (1-Corretor)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "request",
+            "description": "request",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/CancelaPropostaDigitadaRequest"
+            }
+          },
+          {
+            "name": "access-token",
+            "in": "header",
+            "description": "API access token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/CancelaPropostaDigitadaResponse"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbbiden"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Business Error.",
+            "schema": {
+              "$ref": "#/definitions/CancelaPropostaDigitadaErrorResponse"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/agora/listaProposta": {
+      "get": {
+        "tags": [
+          "Propostas"
+        ],
+        "summary": "Listar Propostas e Saldo da Previdência",
+        "operationId": "listarPropostasUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "canal",
+            "in": "header",
+            "description": "Canal de acesso",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "origem",
+            "in": "header",
+            "description": "Código da junção funcional do funcionário",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "usuario",
+            "in": "header",
+            "description": "Usuário",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "identificaFuncionario",
+            "in": "header",
+            "description": "Usuário é funcionário da organização? S(SIM) N(NÃO)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "codigoCorretor",
+            "in": "header",
+            "description": "Código do corretor",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "identificaRepresentante",
+            "in": "header",
+            "description": "Identificação se é Representante ou Corretor (1-Corretor)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "agencia",
+            "in": "query",
+            "description": "Agência (sem dígito)",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "conta",
+            "in": "query",
+            "description": "Conta (sem dígito)",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "cpf",
+            "in": "query",
+            "description": "CPF (CPF+CTRL)",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "dataNascimento",
+            "in": "query",
+            "description": "Data de nascimento (DD.MM.AAAA)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sexo",
+            "in": "query",
+            "description": "Sexo (M/F)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "access-token",
+            "in": "header",
+            "description": "API access token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ListaPropostaSaldoPrevidenciaResponse"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Business Error",
+            "schema": {
+              "$ref": "#/definitions/ErrorInfo"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "schema": {
+              "$ref": "#/definitions/ErrorInfo"
+            }
+          }
+        }
+      }
+    },
+    "/agora/ofertaplanoprevidencia": {
+      "get": {
+        "tags": [
+          "Propostas"
+        ],
+        "summary": "Oferta Plano da Previdencia",
+        "operationId": "ofertaplanoprevidenciaUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "canal",
+            "in": "header",
+            "description": "Canal de acesso",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "origem",
+            "in": "header",
+            "description": "Código da junção funcional do funcionário",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "usuario",
+            "in": "header",
+            "description": "Código da junção funcional do funcionário",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "identificaFuncionario",
+            "in": "header",
+            "description": "Usuário é funcionário da organização? S(SIM) N(NÃO)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "codigoCorretor",
+            "in": "header",
+            "description": "Código do corretor",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "identificaRepresentante",
+            "in": "header",
+            "description": "Identificação se é Representante ou Corretor (1-Corretor)",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "cpf",
+            "in": "query",
+            "description": "CPF",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "agencia",
+            "in": "query",
+            "description": "Agencia",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "conta         ",
+            "in": "query",
+            "description": "Conta",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "modalidade",
+            "in": "query",
+            "description": "1 - PGBL 2 - VGBL 3 - VRGP 4 - Tradicionais",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "regimeTributario",
+            "in": "query",
+            "description": "P - Progressivo R - Regressivo ",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "tipoContribuicao",
+            "in": "query",
+            "description": "1 - Mensal 2 - Unico",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "valorContribuicao",
+            "in": "query",
+            "description": "Valor de Contribuicao",
+            "required": true,
+            "type": "number",
+            "format": "double"
+          },
+          {
+            "name": "access-token",
+            "in": "header",
+            "description": "API access token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/OfertaPlanoPrevidenciaResponse"
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbbiden"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Business Error.",
+            "schema": {
+              "$ref": "#/definitions/OfertaPlanoPrevidenciaErrorResponse"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/agora/parametroBeneficioRisco/": {
+      "get": {
+        "tags": [
+          "beneficio-controller"
+        ],
+        "summary": "Parametros de Beneficio de Risco",
+        "operationId": "parametrobeneficioriscoUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "canal",
+            "in": "header",
+            "description": "Canal de acesso",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "origem",
+            "in": "header",
+            "description": "Codigo da juncao funcional do funcionario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "usuario",
+            "in": "header",
+            "description": "Usuario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "identFuncionario",
+            "in": "header",
+            "description": "Identificacao se o usuario e funcionario da Organizacao S-SIM e N-NAO",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "corretor",
+            "in": "header",
+            "description": "Codigo do corretor",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "identRepresentante",
+            "in": "header",
+            "description": "Identificacao se e representante ou corretor 1 - Corretor e 2-Representante",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "cpf",
+            "in": "query",
+            "description": "CPF",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "dtNascimento",
+            "in": "query",
+            "description": "Data de nascimento",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sexo",
+            "in": "query",
+            "description": "Sexo F - Feminino M - Masculino",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "codPlano",
+            "in": "query",
+            "description": "Codigo do plano",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "codBeneficiario",
+            "in": "query",
+            "description": "Codigo do beneficiario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "codPlanoJovem",
+            "in": "query",
+            "description": "Codigo do plano jovem",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "tpContribuicao",
+            "in": "query",
+            "description": "Tipo de contribuicao",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "cpfPatrocinador",
+            "in": "query",
+            "description": "CPF do patrocinador",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "dtNascimentoPatrocinador",
+            "in": "query",
+            "description": "Data de nascimento do patrocinador",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sexoPatrocinador",
+            "in": "query",
+            "description": "Sexo do patrocinador F - Feminino M - Masculino",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "access-token",
+            "in": "header",
+            "description": "API access token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ParametroBeneficioRiscoResponse"
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbbiden"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Business Error.",
+            "schema": {
+              "$ref": "#/definitions/ParametroBeneficioRiscoErrorResponse"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/agora/parametrosBeneficioAcumulacao/": {
+      "get": {
+        "tags": [
+          "beneficio-controller"
+        ],
+        "summary": "Beneficio de Acumulacao",
+        "operationId": "beneficioacumulacaoUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "canal",
+            "in": "header",
+            "description": "Canal de acesso",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "origem",
+            "in": "header",
+            "description": "Codigo da juncao funcional do funcionario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "usuario",
+            "in": "header",
+            "description": "Usuario",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "identFuncionario",
+            "in": "header",
+            "description": "Identificacao se o usuario e funcionario da Organizacao S - SIM N- NAO",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "codCorretor",
+            "in": "header",
+            "description": "Codigo do corretor",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "identRepresentante",
+            "in": "header",
+            "description": "Identificacao se e representante ou corretor",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "cpf",
+            "in": "query",
+            "description": "CPF",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "dtNascimento",
+            "in": "query",
+            "description": "Data de Nascimento",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sexo",
+            "in": "query",
+            "description": "Sexo",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "codPlano",
+            "in": "query",
+            "description": "Codigo do plano",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "codBeneficio",
+            "in": "query",
+            "description": "Codigo do beneficio",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "codPlanoJovem",
+            "in": "query",
+            "description": "Identificacao de plano jovem",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "tpContribuicao",
+            "in": "query",
+            "description": "Tipo de contribuicao",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "cpfPatrocinador",
+            "in": "query",
+            "description": "CPF do patrocinador",
+            "required": false,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "dtNascimentoPatrocinador",
+            "in": "query",
+            "description": "Data de nascimento do patrocinador",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sexoPatrocinador",
+            "in": "query",
+            "description": "Sexo do patrocinador",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "access-token",
+            "in": "header",
+            "description": "API access token",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ParametroBeneficioAcumulacaoResponse"
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbbiden"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "422": {
+            "description": "Business Error.",
+            "schema": {
+              "$ref": "#/definitions/ParametroBeneficioAcumulacaoErrorResponse"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "CancelaPropostaDigitadaResponse": {
+      "type": "object",
+      "properties": {
+        "avisoRetorno": {
+          "type": "string"
+        },
+        "cbcoPrevdS": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Banco"
+        },
+        "ccdentCobrFundoS": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "codAviso": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Codigo de aviso"
+        },
+        "codRetorno": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo de retorno"
+        },
+        "codigoRetorno": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo retorno"
+        },
+        "cppstaProdtPrevdS": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Proposta "
+        },
+        "cseriePpstaPrevdS": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Serie"
+        },
+        "dados": {
+          "type": "string"
+        },
+        "dataProtocolo": {
+          "type": "string",
+          "description": "Data protocolo "
+        },
+        "horaProtocolo": {
+          "type": "string",
+          "description": "Hora Protocolo "
+        },
+        "icdentCobrFundoS": {
+          "type": "string"
+        },
+        "local": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Local do erro"
+        },
+        "mensagem1": {
+          "type": "string",
+          "description": "Mensagem de Retorno"
+        },
+        "mensagem2": {
+          "type": "string",
+          "description": "Mensagem de Retorno"
+        },
+        "msgAviso": {
+          "type": "string",
+          "description": "Mensagem de Retorno"
+        },
+        "numeroProtocolo": {
+          "type": "string",
+          "description": "Numero Protocolo "
+        },
+        "sqlcode": {
+          "type": "integer",
+          "format": "int32",
+          "description": "SQLCODE"
+        },
+        "tamanhoSaida": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Tamanho saida"
+        },
+        "trancode": {
+          "type": "string",
+          "description": "Código da transação"
+        },
+        "zz": {
+          "type": "string"
+        }
+      }
+    },
+    "ListaPropostaSaldoPrevidenciaResponse": {
+      "type": "object",
+      "properties": {
+        "propostas": {
+          "type": "array",
+          "description": "Lista de propostas",
+          "items": {
+            "$ref": "#/definitions/Proposta"
+          }
+        }
+      }
+    },
+    "ListaBeneficioResponse": {
+      "type": "object",
+      "properties": {
+        "codBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo do beneficiario"
+        },
+        "codBloco": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo do bloco"
+        },
+        "codDestino": {
+          "type": "string",
+          "description": "Codigo do destino"
+        },
+        "dtVigencia": {
+          "type": "string",
+          "description": "Data de vigencia"
+        },
+        "identBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Identificador do beneficiario"
+        },
+        "identObrigatorio": {
+          "type": "string",
+          "description": "Identificador obrigatorio"
+        },
+        "itemBloco": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Item do bloco"
+        },
+        "tpBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Tipo de beneficiario"
+        }
+      }
+    },
+    "OfertaPlanoPrevidenciaErrorResponse": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "example": "2124",
+          "description": "Code error"
+        },
+        "mensagem": {
+          "type": "string",
+          "example": "System unavailable",
+          "description": "Message error"
+        }
+      },
+      "description": "Codigo de erros:"
+    },
+    "Beneficio": {
+      "type": "object",
+      "properties": {
+        "beneficiario": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "beneficioPrevdPrivd": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "beneficioPropostaPrevd": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "coberturaBeneficioRisco": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "codigoBeneficio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Código do benefício"
+        },
+        "dataNascimentoBeneficiario": {
+          "type": "string"
+        },
+        "descricaoBeneficio": {
+          "type": "string",
+          "description": "Descrição do benefício"
+        },
+        "grauParentescoBeneficiario": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "identificacaobeneficioPpstaPrevd": {
+          "type": "string"
+        },
+        "itemBloco": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "prtcpBeneficiarioPpsta": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "quantidadeBeneficiario": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "recebimentoBeneficioRisco": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sexoBeneficiario": {
+          "type": "string"
+        },
+        "tipoBeneficio": {
+          "type": "string",
+          "description": "Tipo do benefício A(Acumulação) R(Risco)"
+        },
+        "valorContribuicaoBeneficioRisco": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "valorRiscoBeneficioContratado": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "valorSaldoAtualBeneficio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Valor resgate"
+        }
+      }
+    },
+    "Proposta": {
+      "type": "object",
+      "properties": {
+        "anoSaldoBloqueado2": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Ano do saldo bloqueado 2"
+        },
+        "anosaldoBloqueado1": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Ano do saldo bloqueado 1"
+        },
+        "beneficios": {
+          "type": "array",
+          "description": "Lista de benefícios",
+          "items": {
+            "$ref": "#/definitions/Beneficio"
+          }
+        },
+        "categoriaInternet": {
+          "type": "string",
+          "description": "Categoria da internet"
+        },
+        "centroCustoProposta": {
+          "type": "string",
+          "description": "Centro de custo da proposta"
+        },
+        "codigoEmpresa": {
+          "type": "string",
+          "description": "Código da empresa"
+        },
+        "codigoFormulario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Código do formulário"
+        },
+        "codigoPlano": {
+          "type": "string",
+          "description": "Código do plano"
+        },
+        "dataVenda": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Data da venda (DDMMAAAA)"
+        },
+        "datasaldoAtual": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Data do saldo (formato DDMMAAA)"
+        },
+        "demonstrarRegistro": {
+          "type": "string",
+          "description": "Demostrar registro S(SIM) N(NÃO)"
+        },
+        "descricaoFundo": {
+          "type": "string",
+          "description": "Descrição do fundo"
+        },
+        "identificaOrigemKirton": {
+          "type": "string",
+          "description": "Indicador se proposta é de Origem Kirton S(SIM) N(NÃO)"
+        },
+        "matricula": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Matrícula"
+        },
+        "nomeParticipante": {
+          "type": "string",
+          "description": "Nome do participante"
+        },
+        "nomePlano": {
+          "type": "string",
+          "description": "Nome do plano"
+        },
+        "numeroProposta": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Número da proposta"
+        },
+        "regime": {
+          "type": "string",
+          "description": "P - PROGRESSIVO / R -REGRRESSIVO"
+        },
+        "serieProposta": {
+          "type": "string",
+          "description": "Série da proposta"
+        },
+        "tipoPlano": {
+          "type": "string",
+          "description": "1 - PGBL / 2 - VGBL / 3 - VRGP / 4- FGB"
+        },
+        "valorSaldoAtual": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor do saldo atual"
+        },
+        "valorSaldoAtualSinal": {
+          "type": "string",
+          "description": "Campo sinal do valor do saldo"
+        },
+        "valorSaldoBloqueado1": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor do saldo bloqueado 1"
+        },
+        "valorSaldoBloqueado2": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor do saldo bloqueado 2"
+        },
+        "valorSaldoEmoresa1": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor do saldo da empresa 1 "
+        },
+        "valorSaldoEmpresa1Sinal": {
+          "type": "string",
+          "description": "Campo sinal do valor do saldo da empresa"
+        },
+        "valorSaldoParticipante1": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor do saldo do participante 1 "
+        },
+        "valorSaldoParticipante1Sinal": {
+          "type": "string",
+          "description": "Campo sinal do valor do saldo do participante 1"
+        },
+        "valorTotalDisponivel": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor total disponível"
+        },
+        "valorTotalDisponivelSinal": {
+          "type": "string",
+          "description": "Campo sinal do valor total disponível"
+        }
+      }
+    },
+    "OfertaPlanoPrevidenciaResponse": {
+      "type": "object",
+      "properties": {
+        "beneficio": {
+          "type": "string",
+          "description": "Descricao do Beneficio"
+        },
+        "canal": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Canal de Acesso"
+        },
+        "cnpj": {
+          "type": "integer",
+          "format": "int64",
+          "description": "CPNJ"
+        },
+        "codigoRetorno": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo de retorno"
+        },
+        "corretor": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Codigo do Corretor"
+        },
+        "fixo": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Fixo"
+        },
+        "funcionario": {
+          "type": "string",
+          "description": "Identificacao se o usuario e funcionario da Organizacao S-Sim N-Nao"
+        },
+        "fundo": {
+          "type": "string",
+          "description": "Composicao do fundo (% renda Fixa % renda variavel)"
+        },
+        "localErro": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Local do erro"
+        },
+        "mensagemRetorno1": {
+          "type": "string",
+          "description": "Mensagem de Retorno "
+        },
+        "mensagemRetorno2": {
+          "type": "string",
+          "description": "Mensagem de Retorno"
+        },
+        "modalidade": {
+          "type": "integer",
+          "format": "int32",
+          "description": "1 - PGBL 2 - VGBL 3 - VRGP 4 - Tradicionais"
+        },
+        "origem": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo da juncao funcional do funcionario"
+        },
+        "outLL": {
+          "type": "string",
+          "description": "Area reservada"
+        },
+        "outZZ": {
+          "type": "string",
+          "description": "Area reservada"
+        },
+        "representante": {
+          "type": "string",
+          "description": "Identificacao se e Representante ou Corretor 1-Corretor 2-Representante"
+        },
+        "sqlCode": {
+          "type": "integer",
+          "format": "int32",
+          "description": "SQLCODE"
+        },
+        "taxaAdministrativa": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Taxa de administracao"
+        },
+        "transacao": {
+          "type": "string"
+        },
+        "usuario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Usuario"
+        },
+        "variavel": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Variavel"
+        }
+      }
+    },
+    "ParametroBeneficioAcumulacaoResponse": {
+      "type": "object",
+      "properties": {
+        "idadeMaxAposentadoria": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima de aposentadoria"
+        },
+        "idadeMaxBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima de ingresso do beneficiario"
+        },
+        "idadeMaxBeneficio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima de cobertura do beneficio de risco"
+        },
+        "idadeMaxParticipante": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima de ingresso do participante"
+        },
+        "idadeMaxPatrocinador": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima de ingresso do patrocinador"
+        },
+        "idadeMinAposentadoria": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima de aposentadoria"
+        },
+        "idadeMinBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima de ingresso do beneficiario"
+        },
+        "idadeMinBeneficio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima de cobertura do beneficio de risco"
+        },
+        "idadeMinParticipante": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima de ingresso do participante"
+        },
+        "idadeMinPatrocinador": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima de ingresso do patrocinador"
+        },
+        "indCobranca": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Indicador de cobranca de carregamento"
+        },
+        "prazoMaxBeneficio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo maximo de cobertura do beneficio de risco"
+        },
+        "prazoMaxCarencia": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo maximo (carencia para aposentadoria)"
+        },
+        "prazoMaxContribuicao": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo maximo de contribuicao"
+        },
+        "prazoMaxRecebimento": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo maximo para recebimento da renda certa"
+        },
+        "prazoMinBeneficio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo minimo de cobertura do beneficio de risco"
+        },
+        "prazoMinCarencia": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo minimo (carencia) para aposentadoria"
+        },
+        "prazoMinContribuicao": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo minimo de contribuicao"
+        },
+        "prazoMinRecebimento": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo minimo para recebimento da renda certa"
+        },
+        "qtdeMaxModulos": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Quantidade maxima de modulos"
+        },
+        "qtdeMinModulos": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Quantidade minima de modulos"
+        },
+        "tarifa": {
+          "type": "number",
+          "format": "double",
+          "description": "Tarifa do participante ou patrocinador"
+        },
+        "vlrMaxBeneficio": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo do beneficio ou renda"
+        },
+        "vlrMaxBeneficioPatrocinador": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo do beneficio por patrocinador"
+        },
+        "vlrMaxCobertura": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo de cobertura global do beneficio"
+        },
+        "vlrMaxContribuicao": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo da contribuicao"
+        },
+        "vlrMaxContribuicaoMensal": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo de contribuicao mensal da acumulacao + risco"
+        },
+        "vlrMaxContribuicaoTotal": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo da contribuicao total dos beneficios de risco"
+        },
+        "vlrMinBeneficio": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo do beneficio ou renda"
+        },
+        "vlrMinBeneficioPatrocinador": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo do beneficio por patrocinador"
+        },
+        "vlrMinCobertura": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo de cobertura global do beneficio"
+        },
+        "vlrMinContribuicao": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo da contribuicao"
+        },
+        "vlrMinContribuicaoMensal": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo de contribuicao mensal da acumulacao + risco"
+        },
+        "vlrMinContribuicaoTotal": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo da contribuicao total dos beneficios de risco"
+        }
+      }
+    },
+    "ParametroBeneficioRiscoErrorResponse": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "example": "2124",
+          "description": "Code error"
+        },
+        "mensagem": {
+          "type": "string",
+          "example": "System unavailable",
+          "description": "Message error"
+        }
+      },
+      "description": "Codigo de erros:"
+    },
+    "AssociarBeneficioRiscoErrorResponse": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "example": "2124",
+          "description": "Code error"
+        },
+        "mensagem": {
+          "type": "string",
+          "example": "System unavailable",
+          "description": "Message error"
+        }
+      },
+      "description": "Codigo de erros:"
+    },
+    "ErrorInfo": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "example": "2124",
+          "description": "Code error"
+        },
+        "mensagem": {
+          "type": "string",
+          "example": "System unavailable",
+          "description": "Message error"
+        }
+      }
+    },
+    "AssociarBeneficioRiscoResponse": {
+      "type": "object",
+      "properties": {
+        "beneficios": {
+          "type": "array",
+          "description": "Beneficios",
+          "items": {
+            "$ref": "#/definitions/ListaBeneficioResponse"
+          }
+        },
+        "codBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo do beneficiario"
+        },
+        "codRetorno": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Mensagem de retorno"
+        },
+        "codTransacao": {
+          "type": "string",
+          "description": "Codigo da transacao"
+        },
+        "local": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Local do erro"
+        },
+        "outLL": {
+          "type": "string",
+          "description": "Area reservada"
+        },
+        "outZZ": {
+          "type": "string",
+          "description": "Area reservada"
+        },
+        "qtdeLinha": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Quantidade de linhas"
+        },
+        "sqlCode": {
+          "type": "integer",
+          "format": "int32",
+          "description": "SQL Code"
+        }
+      }
+    },
+    "ParametroBeneficioRiscoResponse": {
+      "type": "object",
+      "properties": {
+        "codRetorno": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Mensagem de retorno"
+        },
+        "codTransacao": {
+          "type": "string",
+          "description": "Codigo da transacao"
+        },
+        "idadeMaxBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima do beneficiario"
+        },
+        "idadeMaxParticipante": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima do participante"
+        },
+        "idadeMaxPatrocinador": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade maxima do patrociandor"
+        },
+        "idadeMinBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima do beneficiario"
+        },
+        "idadeMinParticipante": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima do participante"
+        },
+        "idadeMinPatrocinador": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Idade minima do patrocinador"
+        },
+        "identMaxCobertura": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Identificador maximo de cobertura de risco"
+        },
+        "identMinCobertura": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Identificador minimo de cobertura de risco"
+        },
+        "local": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Local do erro"
+        },
+        "outLL": {
+          "type": "string",
+          "description": "Area reservada"
+        },
+        "outZZ": {
+          "type": "string",
+          "description": "Area reservada"
+        },
+        "prazoMaxCobertura": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo maximo de cobertura de risco"
+        },
+        "prazoMinCobertura": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Prazo minimo de cobertura de risco"
+        },
+        "sqlCode": {
+          "type": "integer",
+          "format": "int32",
+          "description": "SQL Code"
+        },
+        "tarifaPatrocinador": {
+          "type": "number",
+          "format": "double",
+          "description": "Tarifa particular do patrocinador"
+        },
+        "vlrMaxCobertura": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo de cobertura global"
+        },
+        "vlrMaxContribuicao": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo de contribuicao"
+        },
+        "vlrMaxPatrocinador": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo do patrocinador"
+        },
+        "vlrMaxRenda": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo da renda"
+        },
+        "vlrMaxTotalBeneficiario": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor maximo total do beneficiario de risco"
+        },
+        "vlrMinCobertura": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo de cobertura global"
+        },
+        "vlrMinContribuicao": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo de contribuicao"
+        },
+        "vlrMinPatrocinador": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo do patrocinador"
+        },
+        "vlrMinRenda": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo da renda"
+        },
+        "vlrMinTotalBeneficiario": {
+          "type": "number",
+          "format": "double",
+          "description": "Valor minimo total do beneficiario de risco"
+        }
+      }
+    },
+    "ParametroBeneficioAcumulacaoErrorResponse": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "example": "2124",
+          "description": "Code error"
+        },
+        "mensagem": {
+          "type": "string",
+          "example": "System unavailable",
+          "description": "Message error"
+        }
+      },
+      "description": "Codigo de erros:"
+    },
+    "CancelaPropostaDigitadaRequest": {
+      "type": "object",
+      "properties": {
+        "agencia": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "agenciaDebito": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "banco": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Banco"
+        },
+        "beneficio": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Beneficio"
+          }
+        },
+        "canal": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Canal de acesso"
+        },
+        "cctaBcriaPrevd": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Conta"
+        },
+        "codigoCarregamento": {
+          "type": "string",
+          "description": "Codigo"
+        },
+        "codigoCorretor": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Codigo do Corretor"
+        },
+        "codigoDepdtPtrcdJ": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "cpfCnpj": {
+          "type": "integer",
+          "format": "int32",
+          "description": "CPF"
+        },
+        "cpfCnpjJ": {
+          "type": "integer",
+          "format": "int32",
+          "description": "CPF"
+        },
+        "ctrlCpfCnpj": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Controle"
+        },
+        "ctrlCpfCnpjJ": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Controle"
+        },
+        "dataAgendamentoDebito": {
+          "type": "string",
+          "description": "Data agendamento"
+        },
+        "dataNascimento": {
+          "type": "string",
+          "description": "Data de nascimento"
+        },
+        "dataNascimentoCliente": {
+          "type": "string",
+          "description": "Data de nascimento"
+        },
+        "dataVendaProposta": {
+          "type": "string",
+          "description": "Data venda proposta"
+        },
+        "dconcsBeneficio": {
+          "type": "string"
+        },
+        "diaVencimentoProposta": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "fatorMultiBeneficio": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "finalProposta": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "flialCnpj": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Filial"
+        },
+        "flialCnpjJ": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Filial"
+        },
+        "formaEnvio": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Forma de envio"
+        },
+        "formaPagemento": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Forma de pagamento"
+        },
+        "fundoPrevidencia": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "identificaFuncionario": {
+          "type": "string",
+          "description": "Usuario"
+        },
+        "identificaRepresentante": {
+          "type": "string"
+        },
+        "incdPgtoOnline": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "indcdAltEnder": {
+          "type": "string"
+        },
+        "indcdAltPartc": {
+          "type": "string"
+        },
+        "indcdEmisExtrt": {
+          "type": "string"
+        },
+        "indcdExtrtBdn": {
+          "type": "string"
+        },
+        "indcdExtrtPapel": {
+          "type": "string"
+        },
+        "indcdSitCorsp": {
+          "type": "string"
+        },
+        "indicadorOperacao": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Indicador operacao"
+        },
+        "inicioVigencia": {
+          "type": "string",
+          "description": "Data inicio vigencia"
+        },
+        "isentoCarregSaida": {
+          "type": "string"
+        },
+        "origem": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "parntJovemPtrcdJ": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "planoPagamento": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Plano "
+        },
+        "produtoModalidade": {
+          "type": "string",
+          "description": "Produto"
+        },
+        "produtoNegocio": {
+          "type": "string",
+          "description": "Produto"
+        },
+        "produtoProposta": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Proposta "
+        },
+        "propostaPrevd": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "quantidadeBeneficio": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "resgatePlano": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "respPpstaProdt": {
+          "type": "string"
+        },
+        "sequenciaMod": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "seriePrevdIndvd": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "serieProposta": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Serie"
+        },
+        "sexo": {
+          "type": "string",
+          "description": "Sexo"
+        },
+        "sexoCliPrevdJ": {
+          "type": "string",
+          "description": "Sexo"
+        },
+        "taxaCarregamento": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Percentual de taxa de carregamento"
+        },
+        "tipoConta": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Tipo de conta"
+        },
+        "tipoContribuicao": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Tipo de contribuicao"
+        },
+        "usuario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo da junção funcional do funcionario"
+        },
+        "usuarioSistema": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Usuario"
+        },
+        "valorAporte": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "valorResgatePlano": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    },
+    "AssociarBeneficioRiscoRequest": {
+      "type": "object",
+      "properties": {
+        "canal": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Canal de acesso"
+        },
+        "codBeneficiario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo do beneficio previdencia"
+        },
+        "codBloco": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo do bloco de campo obrigatorio"
+        },
+        "codProdutoNegociado": {
+          "type": "string",
+          "description": "Codigo do produto negociado"
+        },
+        "corretor": {
+          "type": "integer",
+          "format": "int64",
+          "description": "Codigo do corretor"
+        },
+        "dtInicioVigencia": {
+          "type": "string",
+          "description": "Data inicio de vigencia do beneficio"
+        },
+        "identFuncionario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Identificacao se o usuario e funcionario da Organizacao S-SIM e N-N\ufffdO"
+        },
+        "identRepresentante": {
+          "type": "string",
+          "description": "Identificacao se e representante ou corretor 1 - Corretor e 2-Representante"
+        },
+        "origem": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Codigo da juncao funcional do funcionario"
+        },
+        "qtdeLinha": {
+          "type": "string"
+        },
+        "usuario": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Usuario"
+        }
+      }
+    },
+    "CancelaPropostaDigitadaErrorResponse": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "example": "2124",
+          "description": "Code error"
+        },
+        "mensagem": {
+          "type": "string",
+          "example": "System unavailable",
+          "description": "Message error"
+        }
+      },
+      "description": "Codigo de erros:"
+    }
+  }
+}

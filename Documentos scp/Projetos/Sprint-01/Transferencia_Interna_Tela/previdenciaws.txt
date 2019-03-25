@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="previdenciaws" default="dist" basedir=".">
+    <description>
+        Build file previdenciaws
+    </description>
+ 
+    <property name="appname" value="previdenciaws" />    
+    
+    <property name="src-dir" location="${basedir}/src"/>
+    <property name="web-content-dir" location="${basedir}/WebContent"/>
+    <property name="web-inf-dir" location="${web-content-dir}/WEB-INF"/>
+    <property name="build-output-dir" location="${basedir}/build"/>
+    <property name="build-classes-dir" location="${web-inf-dir}/classes"/>
+    <property name="tomcat.home" location="C:/Software/TOMCAT/apache-tomcat-5.5.20 - Hexacta/common" />
+    
+    <path id="build.path">
+        <fileset dir="/suportedbdc_lib/bvp/isd" includes="**/*.jar" />
+        <fileset dir="/suportedbdc_lib/bvp/bvp_aporte" includes="**/*.jar" />
+		<fileset dir="/suportedbdc_lib/bvp/bvp_aceite_digital" includes="**/*.jar" />
+		<fileset dir="/suportedbdc_lib/bvp/bvp_pep" includes="**/*.jar" />
+        <fileset dir="${tomcat.home}/lib/" includes="**/*.jar" />
+        <fileset dir="${web-inf-dir}/lib/" includes="**/*.jar" />
+    </path>
+        
+    <target name="dist" depends="clean, init, compile, package-war, package-ear" />
+    
+    <target name="clean">
+        <delete dir="${build-output-dir}" />
+        <delete dir="${build-classes-dir}" />
+    </target>
+    
+    <target name="init">
+        <tstamp>
+            <format property="project.release" pattern="yyyyMMdd_kkmm" locale="pt,BR" />
+            <format property="project.release.date" pattern="dd-MM-yyyy kk:mm:ss" locale="pt,BR" />
+        </tstamp>
+        <mkdir dir="${build-output-dir}" />
+        <mkdir dir="${build-classes-dir}" />
+    </target>
+
+    <target name="compile">
+        <copy todir="${build-classes-dir}" overwrite="true">
+            <fileset dir="${src-dir}">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <javac destdir="${build-classes-dir}" debug="on" classpathref="build.path" target="1.5" source="1.5">
+            <src path="${src-dir}" />
+            <compilerarg value="-nowarn"/>
+        </javac>
+    </target>
+
+      <target name="package-war">
+        <war warfile="${build-output-dir}/${appname}.war" webxml="${web-inf-dir}/web.xml">                  
+            <fileset dir="${web-content-dir}/" > 
+                <exclude name="**/*.java"/>            
+                <exclude name="**/teste/**"/>    
+                <exclude name="**/testes/**"/>    
+                <exclude name="**/logs/**"/>
+                <exclude name="**/*.scc"/>
+                <exclude name="**/*.log"/>
+                <exclude name="**/.settings/**"/>
+                <exclude name="**/.classpath"/>
+                <exclude name="**/.project"/>
+                <exclude name="**/Thumbs.db"/>
+                <exclude name="**/dist/**"/>
+                <exclude name="**/ibm-web-bnd.xmi"/>
+            </fileset>
+        </war>
+      </target>
+    
+      <target name="package-ear">
+          <manifest file="${build-output-dir}/MANIFEST.MF">
+              <attribute name="Release-Version" value="${project.release}"/>
+              <attribute name="Release-Date" value="${project.release.date}"/>
+          </manifest>
+
+        <ear destfile="${build-output-dir}/previdenciaws.ear" appxml="${web-content-dir}/META-INF/application.xml" manifest="${build-output-dir}/MANIFEST.MF">
+            <fileset dir="${build-output-dir}">
+                <include name="${appname}.war" />
+            </fileset>
+        </ear>
+
+        <delete file="${build-output-dir}/${appname}.war"/>
+        <delete file="${build-output-dir}/MANIFEST.MF"/>
+        <delete dir="${build-classes-dir}" />        
+        
+      </target>
+
+</project>
+

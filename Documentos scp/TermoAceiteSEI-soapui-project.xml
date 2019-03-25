@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="68c26f0b-233e-4d6e-b5e6-3e09ef5ca59f" activeEnvironment="Default" name="TermoAceiteSEI" resourceRoot="" soapui-version="5.4.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="be99ca35-5fb7-4c9d-ae89-d3151a9dbca5" wsaVersion="NONE" name="TermoAceiteSEISoapBinding" type="wsdl" bindingName="{http://termoaceite.webservice.previdencia.web.bradesco.com.br}TermoAceiteSEISoapBinding" soapVersion="1_1" anonymous="optional" definition="file:/C:/Fontes/MobilePrev/previdenciaws/Branch/Projeto/TransfInterna/previdenciaws/WebContent/wsdl/TermoAceiteSEI.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:\C:\Fontes\MobilePrev\previdenciaws\Branch\Projeto\TransfInterna\previdenciaws\WebContent\wsdl\TermoAceiteSEI.wsdl"><con:part><con:url>file:\C:\Fontes\MobilePrev\previdenciaws\Branch\Projeto\TransfInterna\previdenciaws\WebContent\wsdl\TermoAceiteSEI.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:intf="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:tns1="http://termoaceite.dto.service.previdencia.web.bradesco.com.br" xmlns:tns2="http://dto.service.previdencia.web.bradesco.com.br" xmlns:tns3="http://aporteMobile.dto.service.previdencia.web.bradesco.com.br" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+  <wsdl:types>
+    <schema elementFormDefault="qualified" targetNamespace="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns="http://www.w3.org/2001/XMLSchema">
+      <import namespace="http://dto.service.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://termoaceite.dto.service.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://aporteMobile.dto.service.previdencia.web.bradesco.com.br"/>
+      <element name="efetivar">
+        <complexType>
+          <sequence>
+            <element name="proposta" type="tns1:PropostaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <complexType name="ArrayOf_tns1_BeneficioRiscoDTO">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns1:BeneficioRiscoDTO"/>
+        </sequence>
+      </complexType>
+      <complexType name="ArrayOf_tns1_BeneficiarioDTO">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns1:BeneficiarioDTO"/>
+        </sequence>
+      </complexType>
+      <complexType name="ArrayOf_tns1_RiscoDTO">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns1:RiscoDTO"/>
+        </sequence>
+      </complexType>
+      <element name="efetivarResponse">
+        <complexType>
+          <sequence>
+            <element name="efetivarReturn" type="tns1:PropostaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="consultar">
+        <complexType>
+          <sequence>
+            <element name="proposta" type="tns1:PropostaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="consultarResponse">
+        <complexType>
+          <sequence>
+            <element name="consultarReturn" type="tns1:PropostaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="consultarPropostas">
+        <complexType>
+          <sequence>
+            <element name="correntista" type="tns2:CorrentistaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="consultarPropostasResponse">
+        <complexType>
+          <sequence>
+            <element name="consultarPropostasReturn" type="tns1:ListaPropostaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <complexType name="ArrayOf_tns1_PropostaDTO">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns1:PropostaDTO"/>
+        </sequence>
+      </complexType>
+      <element name="consultarTransferencia">
+        <complexType>
+          <sequence>
+            <element name="transferenciaDTO" type="tns2:TransferenciaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <complexType name="ArrayOf_tns2_TransferenciaPropostaOrigemDTO">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="item" type="tns2:TransferenciaPropostaOrigemDTO"/>
+        </sequence>
+      </complexType>
+      <element name="consultarTransferenciaResponse">
+        <complexType>
+          <sequence>
+            <element name="consultarTransferenciaReturn" type="tns2:TransferenciaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="efetivacaoTransferencia">
+        <complexType>
+          <sequence>
+            <element name="transferenciaDTO" type="tns2:TransferenciaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="efetivacaoTransferenciaResponse">
+        <complexType>
+          <sequence>
+            <element name="efetivacaoTransferenciaReturn" type="tns2:TransferenciaDTO"/>
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+    <schema elementFormDefault="qualified" targetNamespace="http://dto.service.previdencia.web.bradesco.com.br" xmlns="http://www.w3.org/2001/XMLSchema">
+      <import namespace="http://termoaceite.webservice.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://termoaceite.dto.service.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://aporteMobile.dto.service.previdencia.web.bradesco.com.br"/>
+      <complexType abstract="true" name="RequiredFields">
+        <sequence>
+          <element name="agencia" type="xsd:int"/>
+          <element name="conta" type="xsd:long"/>
+          <element name="correntista" nillable="true" type="xsd:boolean"/>
+          <element name="cpf" type="xsd:long"/>
+          <element name="cpfControle" type="xsd:int"/>
+          <element name="digitoAgencia" type="xsd:int"/>
+          <element name="digitoConta" type="xsd:int"/>
+          <element name="statusCode" type="xsd:int"/>
+          <element name="statusErrorSource" nillable="true" type="xsd:string"/>
+          <element name="statusMessage" nillable="true" type="xsd:string"/>
+          <element name="tipoConta" type="xsd:int"/>
+          <element name="titularidade" nillable="true" type="xsd:string"/>
+        </sequence>
+      </complexType>
+      <complexType name="CorrentistaDTO">
+        <complexContent>
+          <extension base="tns2:RequiredFields">
+            <sequence>
+              <element name="bairro" nillable="true" type="xsd:string"/>
+              <element name="cep" nillable="true" type="xsd:int"/>
+              <element name="cgcCpf" nillable="true" type="xsd:string"/>
+              <element name="cgcCpf2" nillable="true" type="xsd:long"/>
+              <element name="chave" nillable="true" type="xsd:long"/>
+              <element name="cidade" nillable="true" type="xsd:string"/>
+              <element name="codigoMidia" nillable="true" type="xsd:string"/>
+              <element name="complementoCep" nillable="true" type="xsd:int"/>
+              <element name="complementoEndereco" nillable="true" type="xsd:string"/>
+              <element name="dacAgencia" nillable="true" type="xsd:string"/>
+              <element name="dacConta" nillable="true" type="xsd:string"/>
+              <element name="dataAbertura" nillable="true" type="xsd:dateTime"/>
+              <element name="dataNascimento" nillable="true" type="xsd:dateTime"/>
+              <element name="dataNascimento2" nillable="true" type="xsd:dateTime"/>
+              <element name="ddd" nillable="true" type="xsd:string"/>
+              <element name="dddFax" nillable="true" type="xsd:string"/>
+              <element name="documento" nillable="true" type="xsd:string"/>
+              <element name="documento2" nillable="true" type="xsd:string"/>
+              <element name="email" nillable="true" type="xsd:string"/>
+              <element name="endCompact" nillable="true" type="xsd:string"/>
+              <element name="endereco" nillable="true" type="xsd:string"/>
+              <element name="estado" nillable="true" type="xsd:string"/>
+              <element name="estadoCivil" nillable="true" type="xsd:string"/>
+              <element name="fax" nillable="true" type="xsd:long"/>
+              <element name="foneComercial" nillable="true" type="xsd:long"/>
+              <element name="hifen2" nillable="true" type="xsd:string"/>
+              <element name="hifen3" nillable="true" type="xsd:string"/>
+              <element name="hifenCep" nillable="true" type="xsd:string"/>
+              <element name="nomeMae" nillable="true" type="xsd:string"/>
+              <element name="nomePai" nillable="true" type="xsd:string"/>
+              <element name="nomeTitular" nillable="true" type="xsd:string"/>
+              <element name="numeroImovel" nillable="true" type="xsd:int"/>
+              <element name="ramoProfissao" nillable="true" type="xsd:int"/>
+              <element name="razao" nillable="true" type="xsd:int"/>
+              <element name="sexo" nillable="true" type="xsd:string"/>
+              <element name="sexo2" nillable="true" type="xsd:string"/>
+              <element name="telefone" nillable="true" type="xsd:long"/>
+              <element name="tipoDocumento" nillable="true" type="xsd:string"/>
+              <element name="tipoDocumento2" nillable="true" type="xsd:string"/>
+              <element name="tipoPessoa" nillable="true" type="xsd:string"/>
+              <element name="titular2" nillable="true" type="xsd:string"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+      <complexType name="TransferenciaPropostaOrigemDTO">
+        <complexContent>
+          <extension base="tns2:RequiredFields">
+            <sequence>
+              <element name="baseTecnicaOrigem" nillable="true" type="xsd:string"/>
+              <element name="dtPedidoTransferenciaOrigem" nillable="true" type="xsd:string"/>
+              <element name="indiceCorrPorpostaOrigem" nillable="true" type="xsd:string"/>
+              <element name="nomePlanoOrigem" nillable="true" type="xsd:string"/>
+              <element name="processoSusepOrigem" nillable="true" type="xsd:string"/>
+              <element name="propostaOrigem" nillable="true" type="xsd:int"/>
+              <element name="regimeTributarioOrigem" nillable="true" type="xsd:string"/>
+              <element name="seriePropostaOrigem" nillable="true" type="xsd:int"/>
+              <element name="tipoTransferenciaOrigem" nillable="true" type="xsd:string"/>
+              <element name="tpPlanoOrigem" nillable="true" type="xsd:string"/>
+              <element name="vlrTaxaAdmOrigem" nillable="true" type="xsd:decimal"/>
+              <element name="vlrTransferenciaOrigem" nillable="true" type="xsd:decimal"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+      <complexType name="TransferenciaDTO">
+        <complexContent>
+          <extension base="tns2:RequiredFields">
+            <sequence>
+              <element name="baseTecnicaDestino" nillable="true" type="xsd:string"/>
+              <element name="caminhoProtocolo" nillable="true" type="xsd:string"/>
+              <element name="dtTransferencia" nillable="true" type="xsd:dateTime"/>
+              <element name="indiceCorrPorpostaDestino" nillable="true" type="xsd:string"/>
+              <element name="nomeCorrentista" nillable="true" type="xsd:string"/>
+              <element name="nomePlanoDestino" nillable="true" type="xsd:string"/>
+              <element name="nrProtocolo" nillable="true" type="xsd:string"/>
+              <element name="observacao" nillable="true" type="xsd:string"/>
+              <element name="processoSusepDestino" nillable="true" type="xsd:string"/>
+              <element name="propostaDestino" nillable="true" type="xsd:int"/>
+              <element name="propostasOrigem" nillable="true" type="impl:ArrayOf_tns2_TransferenciaPropostaOrigemDTO"/>
+              <element name="regimeTributarioDestino" nillable="true" type="xsd:string"/>
+              <element name="seriePropostaDestino" nillable="true" type="xsd:int"/>
+              <element name="tpPlanoDestino" nillable="true" type="xsd:string"/>
+              <element name="vlTransferencia" nillable="true" type="xsd:decimal"/>
+              <element name="vlrTaxaAdmDestino" nillable="true" type="xsd:decimal"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+    </schema>
+    <schema elementFormDefault="qualified" targetNamespace="http://termoaceite.dto.service.previdencia.web.bradesco.com.br" xmlns="http://www.w3.org/2001/XMLSchema">
+      <import namespace="http://dto.service.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://termoaceite.webservice.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://aporteMobile.dto.service.previdencia.web.bradesco.com.br"/>
+      <complexType name="BeneficioRiscoDTO">
+        <sequence>
+          <element name="nomeBeneficioRisco" nillable="true" type="xsd:string"/>
+          <element name="porcentagemBeneficioRisco" nillable="true" type="xsd:string"/>
+          <element name="porcentagemBeneficioRiscoFormatado" nillable="true" type="xsd:string"/>
+        </sequence>
+      </complexType>
+      <complexType name="BeneficiarioDTO">
+        <complexContent>
+          <extension base="tns2:RequiredFields">
+            <sequence>
+              <element name="acumulacao" nillable="true" type="xsd:string"/>
+              <element name="acumulacaoFormatado" nillable="true" type="xsd:string"/>
+              <element name="arrBeneficiosRisco" nillable="true" type="impl:ArrayOf_tns1_BeneficioRiscoDTO"/>
+              <element name="dataDeNascimento" nillable="true" type="xsd:string"/>
+              <element name="grauDeParentesco" nillable="true" type="xsd:string"/>
+              <element name="idProposta" nillable="true" type="xsd:int"/>
+              <element name="nome" nillable="true" type="xsd:string"/>
+              <element name="sexo" nillable="true" type="xsd:string"/>
+              <element name="temBeneficioRisco" type="xsd:boolean"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+      <complexType name="RiscoDTO">
+        <complexContent>
+          <extension base="tns2:RequiredFields">
+            <sequence>
+              <element name="beneficiarios" nillable="true" type="impl:ArrayOf_tns1_BeneficiarioDTO"/>
+              <element name="idProposta" nillable="true" type="xsd:int"/>
+              <element name="nomeBeneficioDeRisco" nillable="true" type="xsd:string"/>
+              <element name="processoSUSEP" nillable="true" type="xsd:string"/>
+              <element name="qtdeOcorrenciasBenef" type="xsd:int"/>
+              <element name="tipoDeContribuicao" nillable="true" type="xsd:string"/>
+              <element name="valorDaContribuicao" nillable="true" type="xsd:string"/>
+              <element name="valordacontribuicaoFormatado" nillable="true" type="xsd:string"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+      <complexType name="PropostaDTO">
+        <complexContent>
+          <extension base="tns2:RequiredFields">
+            <sequence>
+              <element name="aprovacao" type="xsd:int"/>
+              <element name="beneficiarios" nillable="true" type="impl:ArrayOf_tns1_BeneficiarioDTO"/>
+              <element name="caminhoProtocolo" nillable="true" type="xsd:string"/>
+              <element name="canal" type="xsd:int"/>
+              <element name="carregamentoDeEntrada" nillable="true" type="xsd:long"/>
+              <element name="carregamentoDeEntradaFormatado" nillable="true" type="xsd:string"/>
+              <element name="carregamentoDeSaida" nillable="true" type="xsd:string"/>
+              <element name="cobertura" nillable="true" type="xsd:string"/>
+              <element name="dtProposta" nillable="true" type="xsd:string"/>
+              <element name="formaDePagamento" nillable="true" type="xsd:string"/>
+              <element name="idProposta" type="xsd:int"/>
+              <element name="indPropostaNova" nillable="true" type="xsd:string"/>
+              <element name="nmParticipante" nillable="true" type="xsd:string"/>
+              <element name="nomeDoFundo" nillable="true" type="xsd:string"/>
+              <element name="nomeDoPlano" nillable="true" type="xsd:string"/>
+              <element name="nomeProponente" nillable="true" type="xsd:string"/>
+              <element name="nrProtocolo" nillable="true" type="xsd:string"/>
+              <element name="numeroDaProposta" type="xsd:long"/>
+              <element name="numeroDaPropostaAporte" type="xsd:long"/>
+              <element name="numeroDaPropostaAporteFormatado" nillable="true" type="xsd:string"/>
+              <element name="numeroDaPropostaFormatado" nillable="true" type="xsd:string"/>
+              <element name="numeroDoProcessoSUSEP" nillable="true" type="xsd:string"/>
+              <element name="propostaSelecionada" nillable="true" type="tns1:PropostaDTO"/>
+              <element name="qtdOcorrenciaRisco" type="xsd:int"/>
+              <element name="regimeTributario" nillable="true" type="xsd:string"/>
+              <element name="riscoAcumulacao" nillable="true" type="tns1:RiscoDTO"/>
+              <element name="riscos" nillable="true" type="impl:ArrayOf_tns1_RiscoDTO"/>
+              <element name="serieDaProposta" nillable="true" type="xsd:string"/>
+              <element name="serieDaPropostaAporte" nillable="true" type="xsd:string"/>
+              <element name="taxaDeADM" nillable="true" type="xsd:string"/>
+              <element name="taxaDeADMFormatada" nillable="true" type="xsd:string"/>
+              <element name="tipoDeContribuicao" nillable="true" type="xsd:string"/>
+              <element name="tipoDePlano" nillable="true" type="xsd:string"/>
+              <element name="tipoDeProposta" nillable="true" type="xsd:string"/>
+              <element name="valorDaContribuicao" nillable="true" type="xsd:string"/>
+              <element name="valorDaContribuicaoFormatado" nillable="true" type="xsd:string"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+      <complexType name="ListaPropostaDTO">
+        <complexContent>
+          <extension base="tns3:ResponseDTO">
+            <sequence>
+              <element name="lista" nillable="true" type="impl:ArrayOf_tns1_PropostaDTO"/>
+              <element name="nomePartic" nillable="true" type="xsd:string"/>
+              <element name="tamanhoLista" type="xsd:int"/>
+            </sequence>
+          </extension>
+        </complexContent>
+      </complexType>
+    </schema>
+    <schema elementFormDefault="qualified" targetNamespace="http://aporteMobile.dto.service.previdencia.web.bradesco.com.br" xmlns="http://www.w3.org/2001/XMLSchema">
+      <import namespace="http://dto.service.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://termoaceite.webservice.previdencia.web.bradesco.com.br"/>
+      <import namespace="http://termoaceite.dto.service.previdencia.web.bradesco.com.br"/>
+      <complexType abstract="true" name="ResponseDTO">
+        <sequence>
+          <element name="codigoMensagem" type="xsd:int"/>
+          <element name="descricaoMensagem" nillable="true" type="xsd:string"/>
+        </sequence>
+      </complexType>
+    </schema>
+  </wsdl:types>
+  <wsdl:message name="consultarPropostasResponse">
+    <wsdl:part element="impl:consultarPropostasResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="consultarTransferenciaResponse">
+    <wsdl:part element="impl:consultarTransferenciaResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="consultarPropostasRequest">
+    <wsdl:part element="impl:consultarPropostas" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="consultarTransferenciaRequest">
+    <wsdl:part element="impl:consultarTransferencia" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="efetivarResponse">
+    <wsdl:part element="impl:efetivarResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="consultarRequest">
+    <wsdl:part element="impl:consultar" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="consultarResponse">
+    <wsdl:part element="impl:consultarResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="efetivarRequest">
+    <wsdl:part element="impl:efetivar" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="efetivacaoTransferenciaRequest">
+    <wsdl:part element="impl:efetivacaoTransferencia" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="efetivacaoTransferenciaResponse">
+    <wsdl:part element="impl:efetivacaoTransferenciaResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="TermoAceiteSEI">
+    <wsdl:operation name="efetivar">
+      <wsdl:input message="impl:efetivarRequest" name="efetivarRequest"></wsdl:input>
+      <wsdl:output message="impl:efetivarResponse" name="efetivarResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultar">
+      <wsdl:input message="impl:consultarRequest" name="consultarRequest"></wsdl:input>
+      <wsdl:output message="impl:consultarResponse" name="consultarResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarPropostas">
+      <wsdl:input message="impl:consultarPropostasRequest" name="consultarPropostasRequest"></wsdl:input>
+      <wsdl:output message="impl:consultarPropostasResponse" name="consultarPropostasResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarTransferencia">
+      <wsdl:input message="impl:consultarTransferenciaRequest" name="consultarTransferenciaRequest"></wsdl:input>
+      <wsdl:output message="impl:consultarTransferenciaResponse" name="consultarTransferenciaResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="efetivacaoTransferencia">
+      <wsdl:input message="impl:efetivacaoTransferenciaRequest" name="efetivacaoTransferenciaRequest"></wsdl:input>
+      <wsdl:output message="impl:efetivacaoTransferenciaResponse" name="efetivacaoTransferenciaResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TermoAceiteSEISoapBinding" type="impl:TermoAceiteSEI">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="efetivar">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="efetivarRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="efetivarResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultar">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="consultarRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="consultarResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarPropostas">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="consultarPropostasRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="consultarPropostasResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarTransferencia">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="consultarTransferenciaRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="consultarTransferenciaResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="efetivacaoTransferencia">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="efetivacaoTransferenciaRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="efetivacaoTransferenciaResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TermoAceiteSEIService">
+    <wsdl:port binding="impl:TermoAceiteSEISoapBinding" name="TermoAceiteSEI">
+      <wsdlsoap:address location="http://localhost:8080/previdenciaws/services/TermoAceiteSEI"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/previdenciaws/services/TermoAceiteSEI</con:endpoint></con:endpoints><con:operation id="9323cc1c-4f15-49d9-9168-b0d25cd86b89" isOneWay="false" action="" name="consultar" bindingOperationName="consultar" type="Request-Response" outputName="consultarResponse" inputName="consultarRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="db9db86e-b4e4-4de6-9c2d-b0754591bda7" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/previdenciaws/services/TermoAceiteSEI</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ter="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:dto="http://dto.service.previdencia.web.bradesco.com.br" xmlns:ter1="http://termoaceite.dto.service.previdencia.web.bradesco.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ter:consultar>\r
+         <ter:proposta>\r
+            <dto:agencia>?</dto:agencia>\r
+            <dto:conta>?</dto:conta>\r
+            <dto:correntista>?</dto:correntista>\r
+            <dto:cpf>?</dto:cpf>\r
+            <dto:cpfControle>?</dto:cpfControle>\r
+            <dto:digitoAgencia>?</dto:digitoAgencia>\r
+            <dto:digitoConta>?</dto:digitoConta>\r
+            <dto:statusCode>?</dto:statusCode>\r
+            <dto:statusErrorSource>?</dto:statusErrorSource>\r
+            <dto:statusMessage>?</dto:statusMessage>\r
+            <dto:tipoConta>?</dto:tipoConta>\r
+            <dto:titularidade>?</dto:titularidade>\r
+            <ter1:aprovacao>?</ter1:aprovacao>\r
+            <ter1:beneficiarios>\r
+               <!--Zero or more repetitions:-->\r
+               <ter:item>\r
+                  <dto:agencia>?</dto:agencia>\r
+                  <dto:conta>?</dto:conta>\r
+                  <dto:correntista>?</dto:correntista>\r
+                  <dto:cpf>?</dto:cpf>\r
+                  <dto:cpfControle>?</dto:cpfControle>\r
+                  <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                  <dto:digitoConta>?</dto:digitoConta>\r
+                  <dto:statusCode>?</dto:statusCode>\r
+                  <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                  <dto:statusMessage>?</dto:statusMessage>\r
+                  <dto:tipoConta>?</dto:tipoConta>\r
+                  <dto:titularidade>?</dto:titularidade>\r
+                  <ter1:acumulacao>?</ter1:acumulacao>\r
+                  <ter1:acumulacaoFormatado>?</ter1:acumulacaoFormatado>\r
+                  <ter1:arrBeneficiosRisco>\r
+                     <!--Zero or more repetitions:-->\r
+                     <ter:item>\r
+                        <ter1:nomeBeneficioRisco>?</ter1:nomeBeneficioRisco>\r
+                        <ter1:porcentagemBeneficioRisco>?</ter1:porcentagemBeneficioRisco>\r
+                        <ter1:porcentagemBeneficioRiscoFormatado>?</ter1:porcentagemBeneficioRiscoFormatado>\r
+                     </ter:item>\r
+                  </ter1:arrBeneficiosRisco>\r
+                  <ter1:dataDeNascimento>?</ter1:dataDeNascimento>\r
+                  <ter1:grauDeParentesco>?</ter1:grauDeParentesco>\r
+                  <ter1:idProposta>?</ter1:idProposta>\r
+                  <ter1:nome>?</ter1:nome>\r
+                  <ter1:sexo>?</ter1:sexo>\r
+                  <ter1:temBeneficioRisco>?</ter1:temBeneficioRisco>\r
+               </ter:item>\r
+            </ter1:beneficiarios>\r
+            <ter1:caminhoProtocolo>?</ter1:caminhoProtocolo>\r
+            <ter1:canal>?</ter1:canal>\r
+            <ter1:carregamentoDeEntrada>?</ter1:carregamentoDeEntrada>\r
+            <ter1:carregamentoDeEntradaFormatado>?</ter1:carregamentoDeEntradaFormatado>\r
+            <ter1:carregamentoDeSaida>?</ter1:carregamentoDeSaida>\r
+            <ter1:cobertura>?</ter1:cobertura>\r
+            <ter1:dtProposta>?</ter1:dtProposta>\r
+            <ter1:formaDePagamento>?</ter1:formaDePagamento>\r
+            <ter1:idProposta>?</ter1:idProposta>\r
+            <ter1:indPropostaNova>?</ter1:indPropostaNova>\r
+            <ter1:nmParticipante>?</ter1:nmParticipante>\r
+            <ter1:nomeDoFundo>?</ter1:nomeDoFundo>\r
+            <ter1:nomeDoPlano>?</ter1:nomeDoPlano>\r
+            <ter1:nomeProponente>?</ter1:nomeProponente>\r
+            <ter1:nrProtocolo>?</ter1:nrProtocolo>\r
+            <ter1:numeroDaProposta>?</ter1:numeroDaProposta>\r
+            <ter1:numeroDaPropostaAporte>?</ter1:numeroDaPropostaAporte>\r
+            <ter1:numeroDaPropostaAporteFormatado>?</ter1:numeroDaPropostaAporteFormatado>\r
+            <ter1:numeroDaPropostaFormatado>?</ter1:numeroDaPropostaFormatado>\r
+            <ter1:numeroDoProcessoSUSEP>?</ter1:numeroDoProcessoSUSEP>\r
+            <ter1:propostaSelecionada/>\r
+            <ter1:qtdOcorrenciaRisco>?</ter1:qtdOcorrenciaRisco>\r
+            <ter1:regimeTributario>?</ter1:regimeTributario>\r
+            <ter1:riscoAcumulacao>\r
+               <dto:agencia>?</dto:agencia>\r
+               <dto:conta>?</dto:conta>\r
+               <dto:correntista>?</dto:correntista>\r
+               <dto:cpf>?</dto:cpf>\r
+               <dto:cpfControle>?</dto:cpfControle>\r
+               <dto:digitoAgencia>?</dto:digitoAgencia>\r
+               <dto:digitoConta>?</dto:digitoConta>\r
+               <dto:statusCode>?</dto:statusCode>\r
+               <dto:statusErrorSource>?</dto:statusErrorSource>\r
+               <dto:statusMessage>?</dto:statusMessage>\r
+               <dto:tipoConta>?</dto:tipoConta>\r
+               <dto:titularidade>?</dto:titularidade>\r
+               <ter1:beneficiarios>\r
+                  <!--Zero or more repetitions:-->\r
+                  <ter:item>\r
+                     <dto:agencia>?</dto:agencia>\r
+                     <dto:conta>?</dto:conta>\r
+                     <dto:correntista>?</dto:correntista>\r
+                     <dto:cpf>?</dto:cpf>\r
+                     <dto:cpfControle>?</dto:cpfControle>\r
+                     <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                     <dto:digitoConta>?</dto:digitoConta>\r
+                     <dto:statusCode>?</dto:statusCode>\r
+                     <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                     <dto:statusMessage>?</dto:statusMessage>\r
+                     <dto:tipoConta>?</dto:tipoConta>\r
+                     <dto:titularidade>?</dto:titularidade>\r
+                     <ter1:acumulacao>?</ter1:acumulacao>\r
+                     <ter1:acumulacaoFormatado>?</ter1:acumulacaoFormatado>\r
+                     <ter1:arrBeneficiosRisco>\r
+                        <!--Zero or more repetitions:-->\r
+                        <ter:item>\r
+                           <ter1:nomeBeneficioRisco>?</ter1:nomeBeneficioRisco>\r
+                           <ter1:porcentagemBeneficioRisco>?</ter1:porcentagemBeneficioRisco>\r
+                           <ter1:porcentagemBeneficioRiscoFormatado>?</ter1:porcentagemBeneficioRiscoFormatado>\r
+                        </ter:item>\r
+                     </ter1:arrBeneficiosRisco>\r
+                     <ter1:dataDeNascimento>?</ter1:dataDeNascimento>\r
+                     <ter1:grauDeParentesco>?</ter1:grauDeParentesco>\r
+                     <ter1:idProposta>?</ter1:idProposta>\r
+                     <ter1:nome>?</ter1:nome>\r
+                     <ter1:sexo>?</ter1:sexo>\r
+                     <ter1:temBeneficioRisco>?</ter1:temBeneficioRisco>\r
+                  </ter:item>\r
+               </ter1:beneficiarios>\r
+               <ter1:idProposta>?</ter1:idProposta>\r
+               <ter1:nomeBeneficioDeRisco>?</ter1:nomeBeneficioDeRisco>\r
+               <ter1:processoSUSEP>?</ter1:processoSUSEP>\r
+               <ter1:qtdeOcorrenciasBenef>?</ter1:qtdeOcorrenciasBenef>\r
+               <ter1:tipoDeContribuicao>?</ter1:tipoDeContribuicao>\r
+               <ter1:valorDaContribuicao>?</ter1:valorDaContribuicao>\r
+               <ter1:valordacontribuicaoFormatado>?</ter1:valordacontribuicaoFormatado>\r
+            </ter1:riscoAcumulacao>\r
+            <ter1:riscos>\r
+               <!--Zero or more repetitions:-->\r
+               <ter:item>\r
+                  <dto:agencia>?</dto:agencia>\r
+                  <dto:conta>?</dto:conta>\r
+                  <dto:correntista>?</dto:correntista>\r
+                  <dto:cpf>?</dto:cpf>\r
+                  <dto:cpfControle>?</dto:cpfControle>\r
+                  <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                  <dto:digitoConta>?</dto:digitoConta>\r
+                  <dto:statusCode>?</dto:statusCode>\r
+                  <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                  <dto:statusMessage>?</dto:statusMessage>\r
+                  <dto:tipoConta>?</dto:tipoConta>\r
+                  <dto:titularidade>?</dto:titularidade>\r
+                  <ter1:beneficiarios>\r
+                     <!--Zero or more repetitions:-->\r
+                     <ter:item>\r
+                        <dto:agencia>?</dto:agencia>\r
+                        <dto:conta>?</dto:conta>\r
+                        <dto:correntista>?</dto:correntista>\r
+                        <dto:cpf>?</dto:cpf>\r
+                        <dto:cpfControle>?</dto:cpfControle>\r
+                        <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                        <dto:digitoConta>?</dto:digitoConta>\r
+                        <dto:statusCode>?</dto:statusCode>\r
+                        <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                        <dto:statusMessage>?</dto:statusMessage>\r
+                        <dto:tipoConta>?</dto:tipoConta>\r
+                        <dto:titularidade>?</dto:titularidade>\r
+                        <ter1:acumulacao>?</ter1:acumulacao>\r
+                        <ter1:acumulacaoFormatado>?</ter1:acumulacaoFormatado>\r
+                        <ter1:arrBeneficiosRisco>\r
+                           <!--Zero or more repetitions:-->\r
+                           <ter:item>\r
+                              <ter1:nomeBeneficioRisco>?</ter1:nomeBeneficioRisco>\r
+                              <ter1:porcentagemBeneficioRisco>?</ter1:porcentagemBeneficioRisco>\r
+                              <ter1:porcentagemBeneficioRiscoFormatado>?</ter1:porcentagemBeneficioRiscoFormatado>\r
+                           </ter:item>\r
+                        </ter1:arrBeneficiosRisco>\r
+                        <ter1:dataDeNascimento>?</ter1:dataDeNascimento>\r
+                        <ter1:grauDeParentesco>?</ter1:grauDeParentesco>\r
+                        <ter1:idProposta>?</ter1:idProposta>\r
+                        <ter1:nome>?</ter1:nome>\r
+                        <ter1:sexo>?</ter1:sexo>\r
+                        <ter1:temBeneficioRisco>?</ter1:temBeneficioRisco>\r
+                     </ter:item>\r
+                  </ter1:beneficiarios>\r
+                  <ter1:idProposta>?</ter1:idProposta>\r
+                  <ter1:nomeBeneficioDeRisco>?</ter1:nomeBeneficioDeRisco>\r
+                  <ter1:processoSUSEP>?</ter1:processoSUSEP>\r
+                  <ter1:qtdeOcorrenciasBenef>?</ter1:qtdeOcorrenciasBenef>\r
+                  <ter1:tipoDeContribuicao>?</ter1:tipoDeContribuicao>\r
+                  <ter1:valorDaContribuicao>?</ter1:valorDaContribuicao>\r
+                  <ter1:valordacontribuicaoFormatado>?</ter1:valordacontribuicaoFormatado>\r
+               </ter:item>\r
+            </ter1:riscos>\r
+            <ter1:serieDaProposta>?</ter1:serieDaProposta>\r
+            <ter1:serieDaPropostaAporte>?</ter1:serieDaPropostaAporte>\r
+            <ter1:taxaDeADM>?</ter1:taxaDeADM>\r
+            <ter1:taxaDeADMFormatada>?</ter1:taxaDeADMFormatada>\r
+            <ter1:tipoDeContribuicao>?</ter1:tipoDeContribuicao>\r
+            <ter1:tipoDePlano>?</ter1:tipoDePlano>\r
+            <ter1:tipoDeProposta>?</ter1:tipoDeProposta>\r
+            <ter1:valorDaContribuicao>?</ter1:valorDaContribuicao>\r
+            <ter1:valorDaContribuicaoFormatado>?</ter1:valorDaContribuicaoFormatado>\r
+         </ter:proposta>\r
+      </ter:consultar>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://termoaceite.webservice.previdencia.web.bradesco.com.br/TermoAceiteSEI/consultarRequest"/></con:call></con:operation><con:operation id="d3e4eb01-1879-42ad-94f4-30863d1d4979" isOneWay="false" action="" name="consultarPropostas" bindingOperationName="consultarPropostas" type="Request-Response" outputName="consultarPropostasResponse" inputName="consultarPropostasRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2f4376fc-4b0b-4ddb-b8a1-0074ec267ddf" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/previdenciaws/services/TermoAceiteSEI</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ter="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:dto="http://dto.service.previdencia.web.bradesco.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ter:consultarPropostas>\r
+         <ter:correntista>\r
+            <dto:agencia>3977</dto:agencia>\r
+            <dto:conta>43000</dto:conta>\r
+            <dto:cpf>35262478549</dto:cpf>\r
+         </ter:correntista>\r
+      </ter:consultarPropostas>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://termoaceite.webservice.previdencia.web.bradesco.com.br/TermoAceiteSEI/consultarPropostasRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="f50937ba-db98-4685-86cc-3df9f462f612" isOneWay="false" action="" name="consultarTransferencia" bindingOperationName="consultarTransferencia" type="Request-Response" outputName="consultarTransferenciaResponse" inputName="consultarTransferenciaRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7fef5275-1f1b-40b7-86ff-9d2268ab8bd6" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/previdenciaws/services/TermoAceiteSEI</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ter="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:dto="http://dto.service.previdencia.web.bradesco.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ter:consultarTransferencia>\r
+         <ter:transferenciaDTO>\r
+            <dto:propostaDestino>0099996</dto:propostaDestino>\r
+            <dto:seriePropostaDestino>096</dto:seriePropostaDestino>\r
+         </ter:transferenciaDTO>\r
+      </ter:consultarTransferencia>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://termoaceite.webservice.previdencia.web.bradesco.com.br/TermoAceiteSEI/consultarTransferenciaRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="35409929-246e-49f5-95ea-cc69000e270d" isOneWay="false" action="" name="efetivacaoTransferencia" bindingOperationName="efetivacaoTransferencia" type="Request-Response" outputName="efetivacaoTransferenciaResponse" inputName="efetivacaoTransferenciaRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="18ac8e2b-17be-4360-88c3-1e298509c1b8" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/previdenciaws/services/TermoAceiteSEI</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ter="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:dto="http://dto.service.previdencia.web.bradesco.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ter:efetivacaoTransferencia>\r
+         <ter:transferenciaDTO>\r
+            <dto:agencia>?</dto:agencia>\r
+            <dto:conta>?</dto:conta>\r
+            <dto:correntista>?</dto:correntista>\r
+            <dto:cpf>?</dto:cpf>\r
+            <dto:cpfControle>?</dto:cpfControle>\r
+            <dto:digitoAgencia>?</dto:digitoAgencia>\r
+            <dto:digitoConta>?</dto:digitoConta>\r
+            <dto:statusCode>?</dto:statusCode>\r
+            <dto:statusErrorSource>?</dto:statusErrorSource>\r
+            <dto:statusMessage>?</dto:statusMessage>\r
+            <dto:tipoConta>?</dto:tipoConta>\r
+            <dto:titularidade>?</dto:titularidade>\r
+            <dto:baseTecnicaDestino>?</dto:baseTecnicaDestino>\r
+            <dto:caminhoProtocolo>?</dto:caminhoProtocolo>\r
+            <dto:dtTransferencia>?</dto:dtTransferencia>\r
+            <dto:indiceCorrPorpostaDestino>?</dto:indiceCorrPorpostaDestino>\r
+            <dto:nomeCorrentista>?</dto:nomeCorrentista>\r
+            <dto:nomePlanoDestino>?</dto:nomePlanoDestino>\r
+            <dto:nrProtocolo>?</dto:nrProtocolo>\r
+            <dto:observacao>?</dto:observacao>\r
+            <dto:processoSusepDestino>?</dto:processoSusepDestino>\r
+            <dto:propostaDestino>?</dto:propostaDestino>\r
+            <dto:propostasOrigem>\r
+               <!--Zero or more repetitions:-->\r
+               <ter:item>\r
+                  <dto:agencia>?</dto:agencia>\r
+                  <dto:conta>?</dto:conta>\r
+                  <dto:correntista>?</dto:correntista>\r
+                  <dto:cpf>?</dto:cpf>\r
+                  <dto:cpfControle>?</dto:cpfControle>\r
+                  <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                  <dto:digitoConta>?</dto:digitoConta>\r
+                  <dto:statusCode>?</dto:statusCode>\r
+                  <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                  <dto:statusMessage>?</dto:statusMessage>\r
+                  <dto:tipoConta>?</dto:tipoConta>\r
+                  <dto:titularidade>?</dto:titularidade>\r
+                  <dto:baseTecnicaOrigem>?</dto:baseTecnicaOrigem>\r
+                  <dto:dtPedidoTransferenciaOrigem>?</dto:dtPedidoTransferenciaOrigem>\r
+                  <dto:indiceCorrPorpostaOrigem>?</dto:indiceCorrPorpostaOrigem>\r
+                  <dto:nomePlanoOrigem>?</dto:nomePlanoOrigem>\r
+                  <dto:processoSusepOrigem>?</dto:processoSusepOrigem>\r
+                  <dto:propostaOrigem>?</dto:propostaOrigem>\r
+                  <dto:regimeTributarioOrigem>?</dto:regimeTributarioOrigem>\r
+                  <dto:seriePropostaOrigem>?</dto:seriePropostaOrigem>\r
+                  <dto:tipoTransferenciaOrigem>?</dto:tipoTransferenciaOrigem>\r
+                  <dto:tpPlanoOrigem>?</dto:tpPlanoOrigem>\r
+                  <dto:vlrTaxaAdmOrigem>?</dto:vlrTaxaAdmOrigem>\r
+                  <dto:vlrTransferenciaOrigem>?</dto:vlrTransferenciaOrigem>\r
+               </ter:item>\r
+            </dto:propostasOrigem>\r
+            <dto:regimeTributarioDestino>?</dto:regimeTributarioDestino>\r
+            <dto:seriePropostaDestino>?</dto:seriePropostaDestino>\r
+            <dto:tpPlanoDestino>?</dto:tpPlanoDestino>\r
+            <dto:vlTransferencia>?</dto:vlTransferencia>\r
+            <dto:vlrTaxaAdmDestino>?</dto:vlrTaxaAdmDestino>\r
+         </ter:transferenciaDTO>\r
+      </ter:efetivacaoTransferencia>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://termoaceite.webservice.previdencia.web.bradesco.com.br/TermoAceiteSEI/efetivacaoTransferenciaRequest"/></con:call></con:operation><con:operation id="db457d26-cfe6-4f11-8653-8d1f890507dc" isOneWay="false" action="" name="efetivar" bindingOperationName="efetivar" type="Request-Response" outputName="efetivarResponse" inputName="efetivarRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f7c58831-e8e3-410a-ad84-509f200dbc60" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/previdenciaws/services/TermoAceiteSEI</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ter="http://termoaceite.webservice.previdencia.web.bradesco.com.br" xmlns:dto="http://dto.service.previdencia.web.bradesco.com.br" xmlns:ter1="http://termoaceite.dto.service.previdencia.web.bradesco.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ter:efetivar>\r
+         <ter:proposta>\r
+            <dto:agencia>?</dto:agencia>\r
+            <dto:conta>?</dto:conta>\r
+            <dto:correntista>?</dto:correntista>\r
+            <dto:cpf>?</dto:cpf>\r
+            <dto:cpfControle>?</dto:cpfControle>\r
+            <dto:digitoAgencia>?</dto:digitoAgencia>\r
+            <dto:digitoConta>?</dto:digitoConta>\r
+            <dto:statusCode>?</dto:statusCode>\r
+            <dto:statusErrorSource>?</dto:statusErrorSource>\r
+            <dto:statusMessage>?</dto:statusMessage>\r
+            <dto:tipoConta>?</dto:tipoConta>\r
+            <dto:titularidade>?</dto:titularidade>\r
+            <ter1:aprovacao>?</ter1:aprovacao>\r
+            <ter1:beneficiarios>\r
+               <!--Zero or more repetitions:-->\r
+               <ter:item>\r
+                  <dto:agencia>?</dto:agencia>\r
+                  <dto:conta>?</dto:conta>\r
+                  <dto:correntista>?</dto:correntista>\r
+                  <dto:cpf>?</dto:cpf>\r
+                  <dto:cpfControle>?</dto:cpfControle>\r
+                  <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                  <dto:digitoConta>?</dto:digitoConta>\r
+                  <dto:statusCode>?</dto:statusCode>\r
+                  <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                  <dto:statusMessage>?</dto:statusMessage>\r
+                  <dto:tipoConta>?</dto:tipoConta>\r
+                  <dto:titularidade>?</dto:titularidade>\r
+                  <ter1:acumulacao>?</ter1:acumulacao>\r
+                  <ter1:acumulacaoFormatado>?</ter1:acumulacaoFormatado>\r
+                  <ter1:arrBeneficiosRisco>\r
+                     <!--Zero or more repetitions:-->\r
+                     <ter:item>\r
+                        <ter1:nomeBeneficioRisco>?</ter1:nomeBeneficioRisco>\r
+                        <ter1:porcentagemBeneficioRisco>?</ter1:porcentagemBeneficioRisco>\r
+                        <ter1:porcentagemBeneficioRiscoFormatado>?</ter1:porcentagemBeneficioRiscoFormatado>\r
+                     </ter:item>\r
+                  </ter1:arrBeneficiosRisco>\r
+                  <ter1:dataDeNascimento>?</ter1:dataDeNascimento>\r
+                  <ter1:grauDeParentesco>?</ter1:grauDeParentesco>\r
+                  <ter1:idProposta>?</ter1:idProposta>\r
+                  <ter1:nome>?</ter1:nome>\r
+                  <ter1:sexo>?</ter1:sexo>\r
+                  <ter1:temBeneficioRisco>?</ter1:temBeneficioRisco>\r
+               </ter:item>\r
+            </ter1:beneficiarios>\r
+            <ter1:caminhoProtocolo>?</ter1:caminhoProtocolo>\r
+            <ter1:canal>?</ter1:canal>\r
+            <ter1:carregamentoDeEntrada>?</ter1:carregamentoDeEntrada>\r
+            <ter1:carregamentoDeEntradaFormatado>?</ter1:carregamentoDeEntradaFormatado>\r
+            <ter1:carregamentoDeSaida>?</ter1:carregamentoDeSaida>\r
+            <ter1:cobertura>?</ter1:cobertura>\r
+            <ter1:dtProposta>?</ter1:dtProposta>\r
+            <ter1:formaDePagamento>?</ter1:formaDePagamento>\r
+            <ter1:idProposta>?</ter1:idProposta>\r
+            <ter1:indPropostaNova>?</ter1:indPropostaNova>\r
+            <ter1:nmParticipante>?</ter1:nmParticipante>\r
+            <ter1:nomeDoFundo>?</ter1:nomeDoFundo>\r
+            <ter1:nomeDoPlano>?</ter1:nomeDoPlano>\r
+            <ter1:nomeProponente>?</ter1:nomeProponente>\r
+            <ter1:nrProtocolo>?</ter1:nrProtocolo>\r
+            <ter1:numeroDaProposta>?</ter1:numeroDaProposta>\r
+            <ter1:numeroDaPropostaAporte>?</ter1:numeroDaPropostaAporte>\r
+            <ter1:numeroDaPropostaAporteFormatado>?</ter1:numeroDaPropostaAporteFormatado>\r
+            <ter1:numeroDaPropostaFormatado>?</ter1:numeroDaPropostaFormatado>\r
+            <ter1:numeroDoProcessoSUSEP>?</ter1:numeroDoProcessoSUSEP>\r
+            <ter1:propostaSelecionada/>\r
+            <ter1:qtdOcorrenciaRisco>?</ter1:qtdOcorrenciaRisco>\r
+            <ter1:regimeTributario>?</ter1:regimeTributario>\r
+            <ter1:riscoAcumulacao>\r
+               <dto:agencia>?</dto:agencia>\r
+               <dto:conta>?</dto:conta>\r
+               <dto:correntista>?</dto:correntista>\r
+               <dto:cpf>?</dto:cpf>\r
+               <dto:cpfControle>?</dto:cpfControle>\r
+               <dto:digitoAgencia>?</dto:digitoAgencia>\r
+               <dto:digitoConta>?</dto:digitoConta>\r
+               <dto:statusCode>?</dto:statusCode>\r
+               <dto:statusErrorSource>?</dto:statusErrorSource>\r
+               <dto:statusMessage>?</dto:statusMessage>\r
+               <dto:tipoConta>?</dto:tipoConta>\r
+               <dto:titularidade>?</dto:titularidade>\r
+               <ter1:beneficiarios>\r
+                  <!--Zero or more repetitions:-->\r
+                  <ter:item>\r
+                     <dto:agencia>?</dto:agencia>\r
+                     <dto:conta>?</dto:conta>\r
+                     <dto:correntista>?</dto:correntista>\r
+                     <dto:cpf>?</dto:cpf>\r
+                     <dto:cpfControle>?</dto:cpfControle>\r
+                     <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                     <dto:digitoConta>?</dto:digitoConta>\r
+                     <dto:statusCode>?</dto:statusCode>\r
+                     <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                     <dto:statusMessage>?</dto:statusMessage>\r
+                     <dto:tipoConta>?</dto:tipoConta>\r
+                     <dto:titularidade>?</dto:titularidade>\r
+                     <ter1:acumulacao>?</ter1:acumulacao>\r
+                     <ter1:acumulacaoFormatado>?</ter1:acumulacaoFormatado>\r
+                     <ter1:arrBeneficiosRisco>\r
+                        <!--Zero or more repetitions:-->\r
+                        <ter:item>\r
+                           <ter1:nomeBeneficioRisco>?</ter1:nomeBeneficioRisco>\r
+                           <ter1:porcentagemBeneficioRisco>?</ter1:porcentagemBeneficioRisco>\r
+                           <ter1:porcentagemBeneficioRiscoFormatado>?</ter1:porcentagemBeneficioRiscoFormatado>\r
+                        </ter:item>\r
+                     </ter1:arrBeneficiosRisco>\r
+                     <ter1:dataDeNascimento>?</ter1:dataDeNascimento>\r
+                     <ter1:grauDeParentesco>?</ter1:grauDeParentesco>\r
+                     <ter1:idProposta>?</ter1:idProposta>\r
+                     <ter1:nome>?</ter1:nome>\r
+                     <ter1:sexo>?</ter1:sexo>\r
+                     <ter1:temBeneficioRisco>?</ter1:temBeneficioRisco>\r
+                  </ter:item>\r
+               </ter1:beneficiarios>\r
+               <ter1:idProposta>?</ter1:idProposta>\r
+               <ter1:nomeBeneficioDeRisco>?</ter1:nomeBeneficioDeRisco>\r
+               <ter1:processoSUSEP>?</ter1:processoSUSEP>\r
+               <ter1:qtdeOcorrenciasBenef>?</ter1:qtdeOcorrenciasBenef>\r
+               <ter1:tipoDeContribuicao>?</ter1:tipoDeContribuicao>\r
+               <ter1:valorDaContribuicao>?</ter1:valorDaContribuicao>\r
+               <ter1:valordacontribuicaoFormatado>?</ter1:valordacontribuicaoFormatado>\r
+            </ter1:riscoAcumulacao>\r
+            <ter1:riscos>\r
+               <!--Zero or more repetitions:-->\r
+               <ter:item>\r
+                  <dto:agencia>?</dto:agencia>\r
+                  <dto:conta>?</dto:conta>\r
+                  <dto:correntista>?</dto:correntista>\r
+                  <dto:cpf>?</dto:cpf>\r
+                  <dto:cpfControle>?</dto:cpfControle>\r
+                  <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                  <dto:digitoConta>?</dto:digitoConta>\r
+                  <dto:statusCode>?</dto:statusCode>\r
+                  <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                  <dto:statusMessage>?</dto:statusMessage>\r
+                  <dto:tipoConta>?</dto:tipoConta>\r
+                  <dto:titularidade>?</dto:titularidade>\r
+                  <ter1:beneficiarios>\r
+                     <!--Zero or more repetitions:-->\r
+                     <ter:item>\r
+                        <dto:agencia>?</dto:agencia>\r
+                        <dto:conta>?</dto:conta>\r
+                        <dto:correntista>?</dto:correntista>\r
+                        <dto:cpf>?</dto:cpf>\r
+                        <dto:cpfControle>?</dto:cpfControle>\r
+                        <dto:digitoAgencia>?</dto:digitoAgencia>\r
+                        <dto:digitoConta>?</dto:digitoConta>\r
+                        <dto:statusCode>?</dto:statusCode>\r
+                        <dto:statusErrorSource>?</dto:statusErrorSource>\r
+                        <dto:statusMessage>?</dto:statusMessage>\r
+                        <dto:tipoConta>?</dto:tipoConta>\r
+                        <dto:titularidade>?</dto:titularidade>\r
+                        <ter1:acumulacao>?</ter1:acumulacao>\r
+                        <ter1:acumulacaoFormatado>?</ter1:acumulacaoFormatado>\r
+                        <ter1:arrBeneficiosRisco>\r
+                           <!--Zero or more repetitions:-->\r
+                           <ter:item>\r
+                              <ter1:nomeBeneficioRisco>?</ter1:nomeBeneficioRisco>\r
+                              <ter1:porcentagemBeneficioRisco>?</ter1:porcentagemBeneficioRisco>\r
+                              <ter1:porcentagemBeneficioRiscoFormatado>?</ter1:porcentagemBeneficioRiscoFormatado>\r
+                           </ter:item>\r
+                        </ter1:arrBeneficiosRisco>\r
+                        <ter1:dataDeNascimento>?</ter1:dataDeNascimento>\r
+                        <ter1:grauDeParentesco>?</ter1:grauDeParentesco>\r
+                        <ter1:idProposta>?</ter1:idProposta>\r
+                        <ter1:nome>?</ter1:nome>\r
+                        <ter1:sexo>?</ter1:sexo>\r
+                        <ter1:temBeneficioRisco>?</ter1:temBeneficioRisco>\r
+                     </ter:item>\r
+                  </ter1:beneficiarios>\r
+                  <ter1:idProposta>?</ter1:idProposta>\r
+                  <ter1:nomeBeneficioDeRisco>?</ter1:nomeBeneficioDeRisco>\r
+                  <ter1:processoSUSEP>?</ter1:processoSUSEP>\r
+                  <ter1:qtdeOcorrenciasBenef>?</ter1:qtdeOcorrenciasBenef>\r
+                  <ter1:tipoDeContribuicao>?</ter1:tipoDeContribuicao>\r
+                  <ter1:valorDaContribuicao>?</ter1:valorDaContribuicao>\r
+                  <ter1:valordacontribuicaoFormatado>?</ter1:valordacontribuicaoFormatado>\r
+               </ter:item>\r
+            </ter1:riscos>\r
+            <ter1:serieDaProposta>?</ter1:serieDaProposta>\r
+            <ter1:serieDaPropostaAporte>?</ter1:serieDaPropostaAporte>\r
+            <ter1:taxaDeADM>?</ter1:taxaDeADM>\r
+            <ter1:taxaDeADMFormatada>?</ter1:taxaDeADMFormatada>\r
+            <ter1:tipoDeContribuicao>?</ter1:tipoDeContribuicao>\r
+            <ter1:tipoDePlano>?</ter1:tipoDePlano>\r
+            <ter1:tipoDeProposta>?</ter1:tipoDeProposta>\r
+            <ter1:valorDaContribuicao>?</ter1:valorDaContribuicao>\r
+            <ter1:valorDaContribuicaoFormatado>?</ter1:valorDaContribuicaoFormatado>\r
+         </ter:proposta>\r
+      </ter:efetivar>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://termoaceite.webservice.previdencia.web.bradesco.com.br/TermoAceiteSEI/efetivarRequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

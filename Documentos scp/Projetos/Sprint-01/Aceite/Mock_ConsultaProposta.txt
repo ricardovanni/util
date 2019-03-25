@@ -1,0 +1,9 @@
+private void formatarDadosTransferencia(TransferenciaDTO detalheTransferencia) {
+		detalheTransferencia.setVlrTaxaAdmOrigem(FormatadorUtil.formatarInteiroParaDecimal(detalheTransferencia.getVlrTaxaAdmOrigem()));
+		detalheTransferencia.setVlrTaxaAdmDestino(FormatadorUtil.formatarInteiroParaDecimal(detalheTransferencia.getVlrTaxaAdmDestino()));
+		detalheTransferencia.setVlrTransferenciaOrigem(FormatadorUtil.formatarInteiroParaDecimal(detalheTransferencia.getVlrTransferenciaOrigem()));
+		detalheTransferencia.setDtPedidoTransferenciaOrigem(FormatadorUtil.formatarDataBRZ(detalheTransferencia.getDtPedidoTransferenciaOrigem()));
+	}
+	
+	
+	172.16.40.*;labs081;127.0.0.1;scopus.com.br;scopus.com.br:8080;localhost:8080;*ib4.bradesco.des.scopus.com.br*;*ib3.bradesco.des.scopus.com.br*;localhost;*ib6.bradesco.des.scopus.com.br*

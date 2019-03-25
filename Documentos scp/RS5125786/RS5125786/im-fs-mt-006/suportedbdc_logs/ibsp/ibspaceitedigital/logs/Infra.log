@@ -1,0 +1,79 @@
+2018-09-22 00:16:21,044 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 00:16:21,332 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 00:16:21,339 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">6619</INP-AGENCIA><INP-CONTA xmlns="">116624</INP-CONTA><INP-CPF xmlns="">31938861817</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 00:16:21,339 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">6619</INP-AGENCIA><INP-CONTA xmlns="">116624</INP-CONTA><INP-CPF xmlns="">31938861817</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 00:16:22,036 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>06619</OUT-AGENCIA>
+  <OUT-CONTA>0000000116624</OUT-CONTA>
+  <OUT-CPF>31938861817</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 00:16:22,047 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 00:25:31,724 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:25:31,924 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:25:43,449 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:25:43,649 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:26:40,163 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:26:40,333 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:26:47,612 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:26:47,862 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:43:51,077 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:43:51,225 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:43:56,756 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:43:56,905 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 01:26:55,336 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 01:26:55,476 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 01:27:12,981 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 01:27:13,169 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 05:43:35,971 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 05:43:37,151 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 05:43:37,165 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2724</INP-AGENCIA><INP-CONTA xmlns="">1000090</INP-CONTA><INP-CPF xmlns="">6478670872</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 05:43:37,166 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2724</INP-AGENCIA><INP-CONTA xmlns="">1000090</INP-CONTA><INP-CPF xmlns="">6478670872</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 05:43:39,040 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02724</OUT-AGENCIA>
+  <OUT-CONTA>0000001000090</OUT-CONTA>
+  <OUT-CPF>06478670872</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 05:43:39,065 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 09:35:28,482 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 09:35:28,751 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 09:35:28,762 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">3692</INP-AGENCIA><INP-CONTA xmlns="">570020</INP-CONTA><INP-CPF xmlns="">1921154560</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 09:35:28,763 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">3692</INP-AGENCIA><INP-CONTA xmlns="">570020</INP-CONTA><INP-CPF xmlns="">1921154560</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 09:35:28,956 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>03692</OUT-AGENCIA>
+  <OUT-CONTA>0000000570020</OUT-CONTA>
+  <OUT-CPF>01921154560</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 09:35:28,968 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]

@@ -1,0 +1,20 @@
+{  
+   "propostas":[  
+      {  
+         "nomePlano":"SobMedida1",
+         "tipoPlano":"naojovem"
+      },
+      {  
+         "nomePlano":"SobMedida2",
+         "tipoPlano":"naojovem"
+      },
+	        {  
+         "nomePlano":"PrevJovem1",
+         "tipoPlano":"jovem"
+      },
+      {  
+         "nomePlano":"PrevJovem2",
+         "tipoPlano":"jovem"
+      }
+   ]
+}

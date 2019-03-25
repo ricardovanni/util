@@ -1,0 +1,661 @@
+2018-09-22 00:20:25,820 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 00:20:26,117 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 00:20:26,129 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">1116</INP-AGENCIA><INP-CONTA xmlns="">2968</INP-CONTA><INP-CPF xmlns="">8915276485</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 00:20:26,129 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">1116</INP-AGENCIA><INP-CONTA xmlns="">2968</INP-CONTA><INP-CPF xmlns="">8915276485</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 00:20:26,298 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>01116</OUT-AGENCIA>
+  <OUT-CONTA>0000000002968</OUT-CONTA>
+  <OUT-CPF>08915276485</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 00:20:26,309 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 00:25:58,008 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:25:58,235 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:26:10,928 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:26:11,132 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:26:43,133 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:26:43,315 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:27:02,098 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:27:02,292 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:42:17,905 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:42:18,054 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 00:44:07,655 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 00:44:07,791 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 01:19:33,912 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 01:19:34,052 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 01:20:01,975 WARN [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-09-22 01:20:02,171 INFO [br.com.bradesco.web.ib.application.error.config.IbExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-09-22 05:43:43,059 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 05:43:44,077 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 05:43:44,090 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2724</INP-AGENCIA><INP-CONTA xmlns="">1000090</INP-CONTA><INP-CPF xmlns="">6478670872</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 05:43:44,090 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2724</INP-AGENCIA><INP-CONTA xmlns="">1000090</INP-CONTA><INP-CPF xmlns="">6478670872</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 05:43:44,235 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02724</OUT-AGENCIA>
+  <OUT-CONTA>0000001000090</OUT-CONTA>
+  <OUT-CPF>06478670872</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 05:43:44,264 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:15:00,790 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:15:01,182 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:15:01,207 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">4767</INP-CONTA><INP-CPF xmlns="">43126608833</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:15:01,208 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">4767</INP-CONTA><INP-CPF xmlns="">43126608833</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:15:01,436 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000004767</OUT-CONTA>
+  <OUT-CPF>43126608833</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 08:15:01,446 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:15:51,240 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:15:51,513 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:15:51,520 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:15:51,521 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:15:52,077 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000564132</OUT-CONTA>
+  <OUT-CPF>27751918861</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>01</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>1000179</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>T</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL F30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>N</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+</PPRA8750Out>]
+2018-09-22 08:15:52,111 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:18:46,349 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:18:46,391 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:18:46,401 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:18:46,402 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:18:46,810 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000564132</OUT-CONTA>
+  <OUT-CPF>27751918861</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>01</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>1000179</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>T</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL F30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>N</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+</PPRA8750Out>]
+2018-09-22 08:18:46,825 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:18:55,711 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:18:55,750 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:18:55,768 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:18:55,769 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:18:56,750 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000564132</OUT-CONTA>
+  <OUT-CPF>27751918861</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>01</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>1000179</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>T</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL F30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>N</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+</PPRA8750Out>]
+2018-09-22 08:18:56,762 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:19:42,922 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:19:42,979 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:19:42,988 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:19:42,988 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:19:43,482 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000564132</OUT-CONTA>
+  <OUT-CPF>27751918861</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>02</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>055</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>0873386</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>A</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL V15/30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>S</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>1000179</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>T</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL F30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>N</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+</PPRA8750Out>]
+2018-09-22 08:19:43,495 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:20:17,753 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:20:17,952 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarTransferencia(PropostaDTO propostaDTO)]
+2018-09-22 08:20:17,975 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8752.PPRA8752PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8752In xmlns="PPRA8752In"><INP-CSERIE-PPSTA xmlns="">60</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">1000179</INP-CPPSTA></PPRA8752In>]
+2018-09-22 08:20:17,976 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8752] - [IN PPRA8752: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8752In xmlns="PPRA8752In"><INP-CSERIE-PPSTA xmlns="">60</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">1000179</INP-CPPSTA></PPRA8752In>]
+2018-09-22 08:20:18,313 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8752] - [OUT PPRA8752: <PPRA8752Out>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-CSERIE-PPSTA-DESTINO>060</OUT-CSERIE-PPSTA-DESTINO>
+  <OUT-CPPSTA-DESTINO>1000179</OUT-CPPSTA-DESTINO>
+  <OUT-TP-PLANO-DESTINO>VGBL</OUT-TP-PLANO-DESTINO>
+  <OUT-NOME-PLANO-DESTINO>BRADESCO VGBL F30</OUT-NOME-PLANO-DESTINO>
+  <OUT-TX-ADM-DESTINO>00300</OUT-TX-ADM-DESTINO>
+  <OUT-REGIME-TRIBUTARIO-DESTINO>REGRESSIVO</OUT-REGIME-TRIBUTARIO-DESTINO>
+  <OUT-INDICE-CORRECAO-DESTINO>IPCA</OUT-INDICE-CORRECAO-DESTINO>
+  <OUT-BASE-TECNICA-DESTINO>AT2000</OUT-BASE-TECNICA-DESTINO>
+  <OUT-PROCESSO-SUSEP-DEST>15414.002429/2007-21</OUT-PROCESSO-SUSEP-DEST>
+  <OUT-QUANTIDADE-DE-OCORRENCIAS>002</OUT-QUANTIDADE-DE-OCORRENCIAS>
+  <PPRA8752OcorrenciaOut>
+    <OUT-CSERIE-PPSTA-ORIG>060</OUT-CSERIE-PPSTA-ORIG>
+    <OUT-CPPSTA-ORIG>1000029</OUT-CPPSTA-ORIG>
+    <OUT-PROCESSO-SUSEP-ORIG>15414.002441/2007-36</OUT-PROCESSO-SUSEP-ORIG>
+    <OUT-TP-PLANO-ORIG>VGBL</OUT-TP-PLANO-ORIG>
+    <OUT-NOME-PLANO-ORIG>BRADESCO VGBL V15/30</OUT-NOME-PLANO-ORIG>
+    <OUT-TX-ADM-ORIG>00300</OUT-TX-ADM-ORIG>
+    <OUT-REGIME-TRIBUTARIO-ORIG>PROGRESSIVO</OUT-REGIME-TRIBUTARIO-ORIG>
+    <OUT-TIPO-TRANSFERENCIA-ORIG>TOTAL</OUT-TIPO-TRANSFERENCIA-ORIG>
+    <OUT-VALOR-TRANSFERENCIA-ORIG>000000000000025</OUT-VALOR-TRANSFERENCIA-ORIG>
+    <OUT-INDICE-CORRECAO-ORIG>IPCA</OUT-INDICE-CORRECAO-ORIG>
+    <OUT-BASE-TECNICA-ORIG>AT2000</OUT-BASE-TECNICA-ORIG>
+    <OUT-DATA-TRANSFERENCIA-ORIG>24.09.2018</OUT-DATA-TRANSFERENCIA-ORIG>
+  </PPRA8752OcorrenciaOut>
+  <PPRA8752OcorrenciaOut>
+    <OUT-CSERIE-PPSTA-ORIG>060</OUT-CSERIE-PPSTA-ORIG>
+    <OUT-CPPSTA-ORIG>1000040</OUT-CPPSTA-ORIG>
+    <OUT-PROCESSO-SUSEP-ORIG>15414.003539/2010-14</OUT-PROCESSO-SUSEP-ORIG>
+    <OUT-TP-PLANO-ORIG>VGBL</OUT-TP-PLANO-ORIG>
+    <OUT-NOME-PLANO-ORIG>BRADESCO VGBL V15/30</OUT-NOME-PLANO-ORIG>
+    <OUT-TX-ADM-ORIG>00300</OUT-TX-ADM-ORIG>
+    <OUT-REGIME-TRIBUTARIO-ORIG>PROGRESSIVO</OUT-REGIME-TRIBUTARIO-ORIG>
+    <OUT-TIPO-TRANSFERENCIA-ORIG>TOTAL</OUT-TIPO-TRANSFERENCIA-ORIG>
+    <OUT-VALOR-TRANSFERENCIA-ORIG>000000000000241</OUT-VALOR-TRANSFERENCIA-ORIG>
+    <OUT-INDICE-CORRECAO-ORIG>IPCA</OUT-INDICE-CORRECAO-ORIG>
+    <OUT-BASE-TECNICA-ORIG>TABUA BR</OUT-BASE-TECNICA-ORIG>
+    <OUT-DATA-TRANSFERENCIA-ORIG>24.09.2018</OUT-DATA-TRANSFERENCIA-ORIG>
+  </PPRA8752OcorrenciaOut>
+</PPRA8752Out>]
+2018-09-22 08:20:18,419 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [consultarTransferencia(PropostaDTO propostaDTO)]
+2018-09-22 08:22:10,971 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:22:11,197 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: efetivacaoTransferencia(TransferenciaDTO param)]
+2018-09-22 08:22:11,685 ERROR [br.com.bradesco.web.bvp.service.aceitedigital.bean.dao.AceiteDigitalSQLDAO] - [java.sql.SQLException: [IBM][SQLServer JDBC Driver][SQLServer]Procedure or function 'InsTransferenciaInterna' expects parameter '@seriePropostaDestino', which was not supplied.]
+2018-09-22 08:22:11,710 ERROR [br.com.bradesco.web.bvp.service.aceitedigital.bean.TransferenciaInternaBean] - []
+br.com.bradesco.web.aq.application.error.BradescoApplicationException: [IBM][SQLServer JDBC Driver][SQLServer]Procedure or function 'InsTransferenciaInterna' expects parameter '@seriePropostaDestino', which was not supplied.
+	at br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl.efetivacaoTransferencia(AceiteDigitalServiceImpl.java:326)
+	at br.com.bradesco.web.bvp.service.aceitedigital.bean.TransferenciaInternaBean.confirmarTransferencia(TransferenciaInternaBean.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1213)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1154)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:145)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:138)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at br.com.bradesco.web.ib.view.components.app.UICript.filter.DecryptFilter.doFilter(DecryptFilter.java:54)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:138)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:81)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.ibpf.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:171)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at br.com.bradesco.web.ib.view.util.taglib.CommonsServiceFilter.doFilter(CommonsServiceFilter.java:91)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:138)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain._doFilter(WebAppFilterChain.java:87)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:848)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:691)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:654)
+	at com.ibm.ws.wswebcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:526)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:3673)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:269)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:831)
+	at com.ibm.ws.wswebcontainer.WebContainer.handleRequest(WebContainer.java:1478)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:133)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:457)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:515)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:300)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:102)
+	at com.ibm.ws.ssl.channel.impl.SSLReadServiceContext$SSLReadCompletedCallback.complete(SSLReadServiceContext.java:1830)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.requestComplete(WorkQueueManager.java:556)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.attemptIO(WorkQueueManager.java:606)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.workerRun(WorkQueueManager.java:979)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager$Worker.run(WorkQueueManager.java:1064)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1593)
+2018-09-22 08:23:09,856 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:23:09,906 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:23:09,916 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:23:09,916 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:23:10,099 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000564132</OUT-CONTA>
+  <OUT-CPF>27751918861</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>02</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>055</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>0873386</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>A</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL V15/30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>S</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>1000179</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>T</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL F30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>N</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+</PPRA8750Out>]
+2018-09-22 08:23:10,113 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:23:13,527 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:23:13,642 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultar(PropostaDTO PropostaDTO)]
+2018-09-22 08:23:13,671 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8751.impl.PPRA8751PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8751In xmlns="PPRA8751In"><INP-CSERIE-PPSTA xmlns="">055</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">873386</INP-CPPSTA><INP-TP-PPSTA xmlns="">A</INP-TP-PPSTA><INP-RESTART xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/></PPRA8751In>]
+2018-09-22 08:23:13,672 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8751] - [IN PPRA8751: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8751In xmlns="PPRA8751In"><INP-CSERIE-PPSTA xmlns="">055</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">873386</INP-CPPSTA><INP-TP-PPSTA xmlns="">A</INP-TP-PPSTA><INP-RESTART xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/></PPRA8751In>]
+2018-09-22 08:23:13,988 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8751] - [OUT PPRA8751: <PPRA8751Out>
+  <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+  <OUT-CPPSTA>1000040</OUT-CPPSTA>
+  <OUT-TP-PPSTA>A</OUT-TP-PPSTA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-CSERIE-PPSTA-APORTE>055</OUT-CSERIE-PPSTA-APORTE>
+  <OUT-CPPSTA-APORTE>0873386</OUT-CPPSTA-APORTE>
+  <OUT-DATA-PROPOSTA>24.09.2018</OUT-DATA-PROPOSTA>
+  <OUT-NOME-PARTICIPANTE>TIAGO DE LUCCA</OUT-NOME-PARTICIPANTE>
+  <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+  <OUT-NOME-PLANO>BRADESCO VGBL V15/30</OUT-NOME-PLANO>
+  <OUT-PROCESSO-SUSEP>15414.003539/2010-14</OUT-PROCESSO-SUSEP>
+  <OUT-COBERTURA>SOBREVIVENCIA</OUT-COBERTURA>
+  <OUT-REGIME-TRIBUTARIO>PROGRESSIVO</OUT-REGIME-TRIBUTARIO>
+  <OUT-NOME-FUNDO>BRADESCO FIC DE FI MULTIMERCADO VGBL - V</OUT-NOME-FUNDO>
+  <OUT-TX-ADM>00300</OUT-TX-ADM>
+  <OUT-TP-CONTRIB>UNICA</OUT-TP-CONTRIB>
+  <OUT-VLR-CONTRIB>000000000035000</OUT-VLR-CONTRIB>
+  <OUT-VLR-CARREG-ENT>00000</OUT-VLR-CARREG-ENT>
+  <OUT-FORMA-PGTO-CONTB>BOLETO BANCÁRIO</OUT-FORMA-PGTO-CONTB>
+  <OUT-CARREGAMENTO-SAIDA>S</OUT-CARREGAMENTO-SAIDA>
+  <OUT-QTDE-OCORRENCIAS-RISCO>0</OUT-QTDE-OCORRENCIAS-RISCO>
+  <OUT-FILLER3 />
+</PPRA8751Out>]
+2018-09-22 08:23:14,046 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultar(PropostaDTO propostaDTO)]
+2018-09-22 08:23:20,919 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:23:21,055 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultar(PropostaDTO PropostaDTO)]
+2018-09-22 08:23:21,063 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8751.impl.PPRA8751PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8751In xmlns="PPRA8751In"><INP-CSERIE-PPSTA xmlns="">055</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">873386</INP-CPPSTA><INP-TP-PPSTA xmlns="">A</INP-TP-PPSTA><INP-RESTART xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/></PPRA8751In>]
+2018-09-22 08:23:21,063 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8751] - [IN PPRA8751: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8751In xmlns="PPRA8751In"><INP-CSERIE-PPSTA xmlns="">055</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">873386</INP-CPPSTA><INP-TP-PPSTA xmlns="">A</INP-TP-PPSTA><INP-RESTART xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/></PPRA8751In>]
+2018-09-22 08:23:21,242 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8751] - [OUT PPRA8751: <PPRA8751Out>
+  <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+  <OUT-CPPSTA>1000040</OUT-CPPSTA>
+  <OUT-TP-PPSTA>A</OUT-TP-PPSTA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-CSERIE-PPSTA-APORTE>055</OUT-CSERIE-PPSTA-APORTE>
+  <OUT-CPPSTA-APORTE>0873386</OUT-CPPSTA-APORTE>
+  <OUT-DATA-PROPOSTA>24.09.2018</OUT-DATA-PROPOSTA>
+  <OUT-NOME-PARTICIPANTE>TIAGO DE LUCCA</OUT-NOME-PARTICIPANTE>
+  <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+  <OUT-NOME-PLANO>BRADESCO VGBL V15/30</OUT-NOME-PLANO>
+  <OUT-PROCESSO-SUSEP>15414.003539/2010-14</OUT-PROCESSO-SUSEP>
+  <OUT-COBERTURA>SOBREVIVENCIA</OUT-COBERTURA>
+  <OUT-REGIME-TRIBUTARIO>PROGRESSIVO</OUT-REGIME-TRIBUTARIO>
+  <OUT-NOME-FUNDO>BRADESCO FIC DE FI MULTIMERCADO VGBL - V</OUT-NOME-FUNDO>
+  <OUT-TX-ADM>00300</OUT-TX-ADM>
+  <OUT-TP-CONTRIB>UNICA</OUT-TP-CONTRIB>
+  <OUT-VLR-CONTRIB>000000000035000</OUT-VLR-CONTRIB>
+  <OUT-VLR-CARREG-ENT>00000</OUT-VLR-CARREG-ENT>
+  <OUT-FORMA-PGTO-CONTB>BOLETO BANCÁRIO</OUT-FORMA-PGTO-CONTB>
+  <OUT-CARREGAMENTO-SAIDA>S</OUT-CARREGAMENTO-SAIDA>
+  <OUT-QTDE-OCORRENCIAS-RISCO>0</OUT-QTDE-OCORRENCIAS-RISCO>
+  <OUT-FILLER3 />
+</PPRA8751Out>]
+2018-09-22 08:23:21,253 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultar(PropostaDTO propostaDTO)]
+2018-09-22 08:23:21,310 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: efetivar(PropostaDTO propostaDTO)]
+2018-09-22 08:23:21,343 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8755.impl.PPRA8755PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8755In xmlns="PPRA8755In"><INP-CSERIE-PPSTA xmlns="">055</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">873386</INP-CPPSTA><INP-TP-PPSTA xmlns="">A</INP-TP-PPSTA><INP-TP-MANUT xmlns="">2</INP-TP-MANUT><INP-CANAL xmlns="">1</INP-CANAL></PPRA8755In>]
+2018-09-22 08:23:21,344 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8755] - [IN PPRA8755: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8755In xmlns="PPRA8755In"><INP-CSERIE-PPSTA xmlns="">055</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">873386</INP-CPPSTA><INP-TP-PPSTA xmlns="">A</INP-TP-PPSTA><INP-TP-MANUT xmlns="">2</INP-TP-MANUT><INP-CANAL xmlns="">1</INP-CANAL></PPRA8755In>]
+2018-09-22 08:23:21,529 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8755] - [OUT PPRA8755: <PPRA8755Out>
+  <OUT-CSERIE-PPSTA>055</OUT-CSERIE-PPSTA>
+  <OUT-CPPSTA>0873386</OUT-CPPSTA>
+  <OUT-TP-PPSTA>A</OUT-TP-PPSTA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>PROPOSTA REPROVADA COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-DATA-EFETIVACAO>24.09.2018</OUT-DATA-EFETIVACAO>
+  <OUT-FILLER3 />
+</PPRA8755Out>]
+2018-09-22 08:23:21,560 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: efetivar(PropostaDTO propostaDTO)]
+2018-09-22 08:23:21,565 INFO [br.com.bradesco.web.bvp.service.aceitedigital.bean.AceiteDigitalBean] - [AceiteDigital gerarProtocolo(PropostaDTO p) inserido]
+2018-09-22 08:23:21,565 INFO [br.com.bradesco.web.bvp.service.aceitedigital.bean.AceiteDigitalBean] - [AceiteDigital gravarDadosAceiteDigital(PropostaDTO p) inserido]
+2018-09-22 08:23:46,960 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:23:47,004 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 08:23:47,013 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:23:47,014 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">2963</INP-AGENCIA><INP-CONTA xmlns="">564132</INP-CONTA><INP-CPF xmlns="">27751918861</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 08:23:47,198 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>02963</OUT-AGENCIA>
+  <OUT-CONTA>0000000564132</OUT-CONTA>
+  <OUT-CPF>27751918861</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>01</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+  <PPRA8750OcorrenciaOut>
+    <OUT-CSERIE-PPSTA>060</OUT-CSERIE-PPSTA>
+    <OUT-CPPSTA>1000179</OUT-CPPSTA>
+    <OUT-NOME-PARTIC>TIAGO DE LUCCA</OUT-NOME-PARTIC>
+    <OUT-TP-PPSTA>T</OUT-TP-PPSTA>
+    <OUT-TP-PLANO>VGBL</OUT-TP-PLANO>
+    <OUT-NOME-PLANO>BRADESCO VGBL F30</OUT-NOME-PLANO>
+    <OUT-IND-PROPOSTA-NOVA>N</OUT-IND-PROPOSTA-NOVA>
+  </PPRA8750OcorrenciaOut>
+</PPRA8750Out>]
+2018-09-22 08:23:47,210 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]
+2018-09-22 08:23:50,402 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:23:50,527 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarTransferencia(PropostaDTO propostaDTO)]
+2018-09-22 08:23:50,543 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8752.PPRA8752PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8752In xmlns="PPRA8752In"><INP-CSERIE-PPSTA xmlns="">60</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">1000179</INP-CPPSTA></PPRA8752In>]
+2018-09-22 08:23:50,544 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8752] - [IN PPRA8752: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8752In xmlns="PPRA8752In"><INP-CSERIE-PPSTA xmlns="">60</INP-CSERIE-PPSTA><INP-CPPSTA xmlns="">1000179</INP-CPPSTA></PPRA8752In>]
+2018-09-22 08:23:50,697 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPrra8752] - [OUT PPRA8752: <PPRA8752Out>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0000</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>EXECUTADO COM SUCESSO</OUT-MENSAGEM-SAIDA>
+  <OUT-CSERIE-PPSTA-DESTINO>060</OUT-CSERIE-PPSTA-DESTINO>
+  <OUT-CPPSTA-DESTINO>1000179</OUT-CPPSTA-DESTINO>
+  <OUT-TP-PLANO-DESTINO>VGBL</OUT-TP-PLANO-DESTINO>
+  <OUT-NOME-PLANO-DESTINO>BRADESCO VGBL F30</OUT-NOME-PLANO-DESTINO>
+  <OUT-TX-ADM-DESTINO>00300</OUT-TX-ADM-DESTINO>
+  <OUT-REGIME-TRIBUTARIO-DESTINO>REGRESSIVO</OUT-REGIME-TRIBUTARIO-DESTINO>
+  <OUT-INDICE-CORRECAO-DESTINO>IPCA</OUT-INDICE-CORRECAO-DESTINO>
+  <OUT-BASE-TECNICA-DESTINO>AT2000</OUT-BASE-TECNICA-DESTINO>
+  <OUT-PROCESSO-SUSEP-DEST>15414.002429/2007-21</OUT-PROCESSO-SUSEP-DEST>
+  <OUT-QUANTIDADE-DE-OCORRENCIAS>002</OUT-QUANTIDADE-DE-OCORRENCIAS>
+  <PPRA8752OcorrenciaOut>
+    <OUT-CSERIE-PPSTA-ORIG>060</OUT-CSERIE-PPSTA-ORIG>
+    <OUT-CPPSTA-ORIG>1000029</OUT-CPPSTA-ORIG>
+    <OUT-PROCESSO-SUSEP-ORIG>15414.002441/2007-36</OUT-PROCESSO-SUSEP-ORIG>
+    <OUT-TP-PLANO-ORIG>VGBL</OUT-TP-PLANO-ORIG>
+    <OUT-NOME-PLANO-ORIG>BRADESCO VGBL V15/30</OUT-NOME-PLANO-ORIG>
+    <OUT-TX-ADM-ORIG>00300</OUT-TX-ADM-ORIG>
+    <OUT-REGIME-TRIBUTARIO-ORIG>PROGRESSIVO</OUT-REGIME-TRIBUTARIO-ORIG>
+    <OUT-TIPO-TRANSFERENCIA-ORIG>TOTAL</OUT-TIPO-TRANSFERENCIA-ORIG>
+    <OUT-VALOR-TRANSFERENCIA-ORIG>000000000000025</OUT-VALOR-TRANSFERENCIA-ORIG>
+    <OUT-INDICE-CORRECAO-ORIG>IPCA</OUT-INDICE-CORRECAO-ORIG>
+    <OUT-BASE-TECNICA-ORIG>AT2000</OUT-BASE-TECNICA-ORIG>
+    <OUT-DATA-TRANSFERENCIA-ORIG>24.09.2018</OUT-DATA-TRANSFERENCIA-ORIG>
+  </PPRA8752OcorrenciaOut>
+  <PPRA8752OcorrenciaOut>
+    <OUT-CSERIE-PPSTA-ORIG>060</OUT-CSERIE-PPSTA-ORIG>
+    <OUT-CPPSTA-ORIG>1000040</OUT-CPPSTA-ORIG>
+    <OUT-PROCESSO-SUSEP-ORIG>15414.003539/2010-14</OUT-PROCESSO-SUSEP-ORIG>
+    <OUT-TP-PLANO-ORIG>VGBL</OUT-TP-PLANO-ORIG>
+    <OUT-NOME-PLANO-ORIG>BRADESCO VGBL V15/30</OUT-NOME-PLANO-ORIG>
+    <OUT-TX-ADM-ORIG>00300</OUT-TX-ADM-ORIG>
+    <OUT-REGIME-TRIBUTARIO-ORIG>PROGRESSIVO</OUT-REGIME-TRIBUTARIO-ORIG>
+    <OUT-TIPO-TRANSFERENCIA-ORIG>TOTAL</OUT-TIPO-TRANSFERENCIA-ORIG>
+    <OUT-VALOR-TRANSFERENCIA-ORIG>000000000000241</OUT-VALOR-TRANSFERENCIA-ORIG>
+    <OUT-INDICE-CORRECAO-ORIG>IPCA</OUT-INDICE-CORRECAO-ORIG>
+    <OUT-BASE-TECNICA-ORIG>TABUA BR</OUT-BASE-TECNICA-ORIG>
+    <OUT-DATA-TRANSFERENCIA-ORIG>24.09.2018</OUT-DATA-TRANSFERENCIA-ORIG>
+  </PPRA8752OcorrenciaOut>
+</PPRA8752Out>]
+2018-09-22 08:23:50,713 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [consultarTransferencia(PropostaDTO propostaDTO)]
+2018-09-22 08:23:55,678 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 08:23:55,844 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: efetivacaoTransferencia(TransferenciaDTO param)]
+2018-09-22 08:23:55,893 ERROR [br.com.bradesco.web.bvp.service.aceitedigital.bean.dao.AceiteDigitalSQLDAO] - [java.sql.SQLException: [IBM][SQLServer JDBC Driver][SQLServer]Procedure or function 'InsTransferenciaInterna' expects parameter '@seriePropostaDestino', which was not supplied.]
+2018-09-22 08:23:55,895 ERROR [br.com.bradesco.web.bvp.service.aceitedigital.bean.TransferenciaInternaBean] - []
+br.com.bradesco.web.aq.application.error.BradescoApplicationException: [IBM][SQLServer JDBC Driver][SQLServer]Procedure or function 'InsTransferenciaInterna' expects parameter '@seriePropostaDestino', which was not supplied.
+	at br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl.efetivacaoTransferencia(AceiteDigitalServiceImpl.java:326)
+	at br.com.bradesco.web.bvp.service.aceitedigital.bean.TransferenciaInternaBean.confirmarTransferencia(TransferenciaInternaBean.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:592)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1213)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1154)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:145)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:138)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at br.com.bradesco.web.ib.view.components.app.UICript.filter.DecryptFilter.doFilter(DecryptFilter.java:54)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:138)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:81)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.ibpf.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:171)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at br.com.bradesco.web.ib.view.util.taglib.CommonsServiceFilter.doFilter(CommonsServiceFilter.java:91)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:138)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:190)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:130)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain._doFilter(WebAppFilterChain.java:87)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:848)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:691)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:654)
+	at com.ibm.ws.wswebcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:526)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:90)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:764)
+	at com.ibm.ws.wswebcontainer.WebContainer.handleRequest(WebContainer.java:1478)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:133)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:457)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:515)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:300)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:102)
+	at com.ibm.ws.ssl.channel.impl.SSLReadServiceContext$SSLReadCompletedCallback.complete(SSLReadServiceContext.java:1830)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.requestComplete(WorkQueueManager.java:556)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.attemptIO(WorkQueueManager.java:606)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.workerRun(WorkQueueManager.java:979)
+	at com.ibm.ws.tcp.channel.impl.WorkQueueManager$Worker.run(WorkQueueManager.java:1064)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1593)
+2018-09-22 10:19:15,572 INFO [br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.ibpf.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-09-22 10:19:17,355 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [inicio do metodo: consultarPropostas(PropostaDTO PropostaDTO)]
+2018-09-22 10:19:17,388 INFO [br.com.bradesco.web.previdencia.service.data.commarea.termoaceite.ppra8750.impl.PPRA8750PDCAdapterImpl] - [CHAMADA MAINFRAME IN : <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">1743</INP-AGENCIA><INP-CONTA xmlns="">253354</INP-CONTA><INP-CPF xmlns="">66930120863</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 10:19:17,388 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [IN PPRA8750: <?xml version="1.0" encoding="UTF-8"?>
+<PPRA8750In xmlns="PPRA8750In"><INP-AGENCIA xmlns="">1743</INP-AGENCIA><INP-CONTA xmlns="">253354</INP-CONTA><INP-CPF xmlns="">66930120863</INP-CPF><INP-CANAL xmlns="">1</INP-CANAL><INP-RESTART xmlns="">0</INP-RESTART></PPRA8750In>]
+2018-09-22 10:19:17,693 INFO [br.com.bradesco.web.ib.service.data.pdc.adapter.PrevidenciaPdcBaseAdapterPpra8750] - [OUT PPRA8750: <PPRA8750Out>
+  <OUT-AGENCIA>01743</OUT-AGENCIA>
+  <OUT-CONTA>0000000253354</OUT-CONTA>
+  <OUT-CPF>66930120863</OUT-CPF>
+  <OUT-CANAL>1</OUT-CANAL>
+  <OUT-RESTART-SAIDA>0000</OUT-RESTART-SAIDA>
+  <OUT-SINAL-SQLCODE />
+  <OUT-SQLCODE-SAIDA>000</OUT-SQLCODE-SAIDA>
+  <OUT-LOCAL-SAIDA>00</OUT-LOCAL-SAIDA>
+  <OUT-COD-RETORNO-SAIDA>0001</OUT-COD-RETORNO-SAIDA>
+  <OUT-MENSAGEM-SAIDA>NENHUMA PROPOSTA PENDENTE DE VALIDACAO</OUT-MENSAGEM-SAIDA>
+  <OUT-QTDE-OCORRENCIAS>00</OUT-QTDE-OCORRENCIAS>
+  <OUT-FILLER3 />
+</PPRA8750Out>]
+2018-09-22 10:19:17,732 INFO [br.com.bradesco.web.bvp.service.aceitedigital.impl.AceiteDigitalServiceImpl] - [finalizando o metodo: consultarPropostas(CorrentistaDTO correntistaDTO)]

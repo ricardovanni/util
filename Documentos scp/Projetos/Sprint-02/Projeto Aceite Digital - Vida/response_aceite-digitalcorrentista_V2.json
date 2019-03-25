@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "data": [
+    {
+      "codigoSistemaOrigem": 5,
+      "aceiteDigitalId": "570ad1d3-b3c9-4f92-9d5c-870608ab3e3f",
+      "conteudoOrigemJson": {
+        "Cpf": "227.950.798-60",
+        "Nome": "RAFAEL SABATINI DA SILVA",
+        "Sexo": "Masculino",
+        "CodigoProduto": 600,
+        "produto": "Vida Mais Segura Bradesco",
+        "DadosGerais": {
+          "CodigoPlano": 1,
+          "Plano": "PLANO 1",
+          "NroProposta": 7071977,
+          "DataProposta": "17/10/2018",
+          "Capital": 120000,
+          "ValorPremio": 59.69,
+          "CodigoSusep": "15414.004362/2007-60",
+          "TipoCobranca": "Débito Conta Corrente",
+          "FrequenciaPagamento": "Mensal",
+          "Email": "rsilva@sistran.com.br",
+          "Celular": "+55-11-99521-1975",
+          "Status": "Liberada",
+          "Banco": "237",
+          "Agencia": "28568",
+          "ContaCorrente": "05803101"
+        },
+        "Beneficiarios": [
+          {
+            "NomeBeneficiario": "Debora Sabatini",
+            "GrauParentesco": "Mãe",
+            "Percentual": 50
+          },
+          {
+            "NomeBeneficiario": "Tabata Maggion",
+            "GrauParentesco": "Conjuge",
+            "Percentual": 50
+          }
+        ],
+        "Coberturas": [
+          {
+            "NomeCobertura": "MORTE",
+            "CapitalSegurado": 120000
+          },
+          {
+            "NomeCobertura": "ASSISTENCIA FUNERAL FAMILIAR",
+            "CapitalSegurado": 0
+          },
+          {
+            "NomeCobertura": "INDENIZAÇÃO ESPECIAL POR MORTE ACIDENTAL",
+            "CapitalSegurado": 120000
+          },
+          {
+            "NomeCobertura": "INVALIDEZ PERMANENTE POR ACIDENTE",
+            "CapitalSegurado": 120000
+          },
+          {
+            "NomeCobertura": "SORTEIO CAPITALIZAÇÃO",
+            "CapitalSegurado": 0
+          }
+        ]
+      }
+    },
+    {
+      "codigoSistemaOrigem": 5,
+      "aceiteDigitalId": "6faf1b0a-67e0-4991-87c9-73ce6b201aa0",
+      "conteudoOrigemJson": {
+        "Cpf": "227.950.798-60",
+        "Nome": "RAFAEL SABATINI DA SILVA",
+        "Sexo": "Masculino",
+        "CodigoProduto": 541,
+        "produto": "AP MODULAR PREMIAVEL BRADESCO",
+        "DadosGerais": {
+          "CodigoPlano": 1,
+          "Plano": "Plano Único",
+          "NroProposta": 1234567,
+          "DataProposta": "17/10/2018",
+          "Capital": 50000,
+          "ValorPremio": 63.32,
+          "CodigoSusep": "15414.004362/2007-60",
+          "TipoCobranca": "Débito Conta Corrente",
+          "FrequenciaPagamento": "Mensal",
+          "Email": "rsilva@sistran.com.br",
+          "Celular": "+55-11-99521-1975",
+          "Status": "Liberada",
+          "Banco": "237",
+          "Agencia": "28568",
+          "ContaCorrente": "05803101"
+        },
+        "Beneficiarios": [
+          {
+            "NomeBeneficiario": "Debora Sabatini",
+            "GrauParentesco": "Mãe",
+            "Percentual": 50
+          },
+          {
+            "NomeBeneficiario": "Tabata Maggion",
+            "GrauParentesco": "Conjuge",
+            "Percentual": 50
+          }
+        ],
+        "Coberturas": [
+          {
+            "NomeCobertura": "MORTE ACIDENTAL",
+            "CapitalSegurado": 50000
+          },
+          {
+            "NomeCobertura": "ASSISTÊNCIA FUNERAL INDIVIDUAL",
+            "CapitalSegurado": 0
+          }
+        ]
+      }
+    }
+  ]
+}

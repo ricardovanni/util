@@ -1,0 +1,946 @@
+2018-09-22 00:03:57,210	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:03:57,213	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:03:57,213	WebContainer : 5	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:03:57,391	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:03:57,752	WebContainer : 5	exit	1	542	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:06:06,855	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:06:06,857	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:06:06,858	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:06:07,056	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:06:07,268	WebContainer : 2	exit	1	414	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:17:45,959	WebContainer : 10	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:17:45,961	WebContainer : 10	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:17:45,962	WebContainer : 10	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:17:46,175	WebContainer : 10	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:17:47,254	WebContainer : 10	exit	1	1295	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:22:41,968	WebContainer : 13	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:22:41,970	WebContainer : 13	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:22:41,971	WebContainer : 13	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:22:42,170	WebContainer : 13	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:22:42,414	WebContainer : 13	exit	1	446	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+p]
+2018-09-22 00:14:04,113	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:14:04,115	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:14:04,116	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:14:15,273	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:14:15,677	WebContainer : 4	exit	1	11564	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:15:20,603	WebContainer : 21	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:15:20,606	WebContainer : 21	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:15:20,607	WebContainer : 21	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:15:20,817	WebContainer : 21	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:15:21,553	WebContainer : 21	exit	1	950	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:26:35,189	WebContainer : 30	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:26:35,215	WebContainer : 30	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:26:35,265	WebContainer : 30	exit	2	49	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:26:36,205	WebContainer : 30	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:26:39,325	WebContainer : 30	exit	1	4136	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:26:42,220	WebContainer : 9	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 00:26:42,222	WebContainer : 9	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:26:42,223	WebContainer : 9	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:26:42,416	WebContainer : 9	exit	1	196	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 00:28:45,302	WebContainer : 14	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:28:45,344	WebContainer : 14	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:28:45,407	WebContainer : 14	exit	2	63	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:28:46,397	WebContainer : 14	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:28:49,016	WebContainer : 14	exit	1	3714	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:28:53,485	WebContainer : 19	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 00:28:53,487	WebContainer : 19	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:28:53,488	WebContainer : 19	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:28:53,675	WebContainer : 19	exit	1	190	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 00:33:54,727	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:33:54,729	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:33:54,730	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:33:54,935	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:33:54,989	WebContainer : 4	exit	1	262	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:34:01,791	WebContainer : 14	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 00:34:01,794	WebContainer : 14	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:34:01,794	WebContainer : 14	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:34:01,896	WebContainer : 14	exit	1	105	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 00:57:14,751	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 00:57:14,777	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:57:14,827	WebContainer : 2	exit	2	49	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:57:15,720	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 00:57:16,156	WebContainer : 2	exit	1	1405	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 00:57:21,853	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 00:57:21,856	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:57:21,857	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 00:57:21,984	WebContainer : 3	exit	1	131	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 01:22:20,932	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 01:22:20,954	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:22:20,992	WebContainer : 0	exit	2	37	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:22:21,766	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 01:22:22,673	WebContainer : 0	exit	1	1741	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 01:22:31,208	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 01:22:31,211	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:22:31,212	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:22:31,348	WebContainer : 2	exit	1	140	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 01:30:39,102	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 01:30:39,123	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:30:39,163	WebContainer : 1	exit	2	40	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:30:39,799	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 01:30:41,120	WebContainer : 1	exit	1	2018	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 01:30:43,754	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 01:30:43,757	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:30:43,758	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:30:43,880	WebContainer : 2	exit	1	126	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 01:37:18,638	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 01:37:18,640	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:37:18,641	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:37:18,851	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 01:37:19,872	WebContainer : 4	exit	1	1234	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 01:37:27,277	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 01:37:27,279	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:37:27,280	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:37:27,399	WebContainer : 3	exit	1	122	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 01:44:58,955	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 01:44:58,957	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:44:58,958	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:44:59,188	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 01:44:59,501	WebContainer : 2	exit	1	546	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 01:45:03,042	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 01:45:03,045	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:45:03,045	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:45:03,148	WebContainer : 1	exit	1	106	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 01:47:22,258	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 01:47:22,260	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:47:22,261	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:47:22,457	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 01:47:22,852	WebContainer : 1	exit	1	594	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 01:47:28,154	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 01:47:28,159	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:47:28,160	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 01:47:28,255	WebContainer : 2	exit	1	101	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 02:03:17,761	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 02:03:17,763	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:03:17,764	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:03:19,444	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 02:03:20,595	WebContainer : 2	exit	1	2834	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 02:03:23,326	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 02:03:23,328	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:03:23,329	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:03:24,008	WebContainer : 0	exit	1	682	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 02:17:49,975	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 02:17:49,977	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:17:49,977	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:17:50,181	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 02:17:50,396	WebContainer : 3	exit	1	421	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 02:18:06,157	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 02:18:06,162	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:18:06,162	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:18:06,262	WebContainer : 2	exit	1	105	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 02:20:23,335	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 02:20:23,338	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:20:23,339	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:20:23,570	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 02:20:24,334	WebContainer : 2	exit	1	999	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 02:20:26,996	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 02:20:26,998	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:20:26,999	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:20:27,091	WebContainer : 0	exit	1	95	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 02:26:26,649	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 02:26:26,651	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:26:26,652	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:26:26,892	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 02:26:27,981	WebContainer : 2	exit	1	1332	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 02:26:35,055	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 02:26:35,057	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:26:35,057	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:26:35,165	WebContainer : 0	exit	1	110	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 02:27:03,532	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 02:27:03,534	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:27:03,536	WebContainer : 2	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:27:03,748	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 02:27:03,952	WebContainer : 2	exit	1	420	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 02:27:07,696	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 02:27:07,699	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:27:07,699	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:27:07,793	WebContainer : 1	exit	1	97	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 02:55:20,346	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 02:55:20,348	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:55:20,349	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:55:20,567	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 02:55:21,023	WebContainer : 2	exit	1	677	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 02:55:23,342	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 02:55:23,349	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:55:23,350	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 02:55:23,465	WebContainer : 2	exit	1	123	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 03:12:59,667	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 03:12:59,670	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:12:59,670	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:12:59,879	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 03:13:00,206	WebContainer : 0	exit	1	539	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 03:13:01,613	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 03:13:01,615	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:13:01,616	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:13:01,732	WebContainer : 1	exit	1	119	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 03:38:09,156	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 03:38:09,158	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:38:09,159	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:38:09,386	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 03:38:10,442	WebContainer : 2	exit	1	1286	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 03:38:14,562	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 03:38:14,564	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:38:14,564	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 03:38:14,663	WebContainer : 2	exit	1	101	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 04:59:21,084	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 04:59:21,087	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:21,088	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:21,272	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 04:59:21,922	WebContainer : 1	exit	1	838	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 04:59:30,823	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 04:59:30,825	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:30,825	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:30,943	WebContainer : 3	exit	1	120	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 04:59:52,400	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 04:59:52,402	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:52,403	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:52,621	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 04:59:52,859	WebContainer : 3	exit	1	459	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 04:59:55,144	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 04:59:55,146	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:55,147	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 04:59:55,294	WebContainer : 2	exit	1	150	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:05:56,120	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:05:56,122	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:05:56,123	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:05:56,326	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:05:57,614	WebContainer : 3	exit	1	1494	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:06:02,675	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:06:02,677	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:06:02,678	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:06:02,784	WebContainer : 2	exit	1	109	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:23:29,780	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:23:29,783	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:23:29,784	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:23:29,960	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:23:30,263	WebContainer : 3	exit	1	483	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:23:38,568	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:23:38,570	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:23:38,570	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:23:38,663	WebContainer : 2	exit	1	95	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:47:37,139	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 05:47:37,142	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:47:37,142	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:47:37,333	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:47:38,927	WebContainer : 0	exit	1	1788	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:47:45,680	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 05:47:45,682	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:47:45,682	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:47:45,780	WebContainer : 1	exit	1	100	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:55:43,918	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:55:43,920	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:43,921	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:44,085	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:55:44,370	WebContainer : 3	exit	1	452	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:55:47,542	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:55:47,544	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:47,545	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:47,718	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:55:47,969	WebContainer : 1	exit	1	427	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:55:52,050	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:55:52,053	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:52,053	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:52,141	WebContainer : 1	exit	1	91	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:55:53,909	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:55:53,911	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:53,912	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:55:53,998	WebContainer : 1	exit	1	89	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:56:30,370	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:56:30,372	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:56:30,372	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:56:30,546	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:56:30,760	WebContainer : 2	exit	1	390	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:56:36,620	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:56:36,623	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:56:36,623	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:56:36,709	WebContainer : 4	exit	1	89	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:58:11,871	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:58:11,873	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:58:11,874	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:58:12,051	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:58:12,453	WebContainer : 0	exit	1	582	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:58:14,361	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:58:14,363	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:58:14,363	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:58:14,455	WebContainer : 3	exit	1	94	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 05:59:16,804	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 05:59:16,806	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:59:16,806	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:59:16,997	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 05:59:18,147	WebContainer : 2	exit	1	1343	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 05:59:24,494	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 05:59:24,496	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:59:24,497	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 05:59:24,579	WebContainer : 1	exit	1	85	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:00:08,510	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:00:08,512	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:00:08,513	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:00:08,707	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:00:09,035	WebContainer : 3	exit	1	526	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:00:11,647	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:00:11,650	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:00:11,650	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:00:11,733	WebContainer : 1	exit	1	86	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:06:25,077	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:06:25,079	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:06:25,080	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:06:25,256	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:06:26,351	WebContainer : 0	exit	1	1274	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:06:28,276	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:06:28,278	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:06:28,279	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:06:28,363	WebContainer : 3	exit	1	87	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:09:59,206	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:09:59,208	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:09:59,208	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:09:59,384	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:10:00,502	WebContainer : 1	exit	1	1295	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:10:04,566	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:10:04,574	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:10:04,575	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:10:04,662	WebContainer : 2	exit	1	96	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:17:03,414	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:17:03,417	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:17:03,417	WebContainer : 5	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:17:03,600	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:17:04,918	WebContainer : 5	exit	1	1504	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:17:13,245	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:17:13,248	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:17:13,249	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:17:13,333	WebContainer : 4	exit	1	88	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:24:32,882	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:24:32,884	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:24:32,884	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:24:33,066	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:24:34,019	WebContainer : 0	exit	1	1137	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:24:37,420	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:24:37,422	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:24:37,423	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:24:37,519	WebContainer : 5	exit	1	99	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:30:01,192	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:30:01,194	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:30:01,195	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:30:01,377	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:30:01,721	WebContainer : 5	exit	1	529	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:30:04,015	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:30:04,017	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:30:04,018	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:30:04,096	WebContainer : 5	exit	1	81	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:32:53,858	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:32:53,860	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:32:53,861	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:32:54,031	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:32:54,594	WebContainer : 5	exit	1	736	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:32:58,862	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:32:58,864	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:32:58,865	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:32:58,949	WebContainer : 3	exit	1	87	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:46:00,052	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:46:00,054	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:46:00,055	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:46:00,232	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:46:01,242	WebContainer : 0	exit	1	1190	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:46:03,984	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:46:03,986	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:46:03,987	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:46:04,068	WebContainer : 1	exit	1	84	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:52:10,569	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:52:10,572	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:52:10,572	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:52:10,743	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:52:11,005	WebContainer : 3	exit	1	436	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:52:13,029	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:52:13,031	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:52:13,032	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:52:13,118	WebContainer : 4	exit	1	89	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 06:53:09,323	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 06:53:09,325	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:53:09,326	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:53:09,489	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 06:53:09,989	WebContainer : 1	exit	1	666	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 06:53:12,137	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 06:53:12,139	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:53:12,140	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 06:53:12,237	WebContainer : 4	exit	1	100	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:04:13,355	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:04:13,357	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:13,358	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:13,548	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:04:14,094	WebContainer : 3	exit	1	739	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:04:25,180	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:04:25,182	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:25,183	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:25,271	WebContainer : 1	exit	1	91	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:04:42,102	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:04:42,104	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:42,105	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:42,264	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:04:42,474	WebContainer : 0	exit	1	372	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:04:54,717	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:04:54,719	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:54,720	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:04:54,805	WebContainer : 2	exit	1	88	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:22:45,334	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:22:45,337	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:22:45,338	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:22:45,528	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:22:45,761	WebContainer : 0	exit	1	427	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:22:50,774	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:22:50,777	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:22:50,777	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:22:50,863	WebContainer : 0	exit	1	89	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:23:37,628	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:23:37,630	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:23:37,631	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:23:37,808	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:23:38,437	WebContainer : 4	exit	1	809	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:23:40,499	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:23:40,502	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:23:40,502	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:23:40,592	WebContainer : 3	exit	1	93	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:27:46,012	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:27:46,014	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:27:46,015	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:27:46,200	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:27:46,432	WebContainer : 5	exit	1	419	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:27:49,148	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:27:49,150	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:27:49,150	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:27:49,226	WebContainer : 1	exit	1	78	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:30:16,784	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:30:16,787	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:30:16,788	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:30:17,001	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:30:17,250	WebContainer : 0	exit	1	466	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:30:19,254	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:30:19,257	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:30:19,257	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:30:19,343	WebContainer : 0	exit	1	89	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:33:12,054	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 07:33:12,056	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:33:12,057	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:33:12,225	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:33:12,536	WebContainer : 0	exit	1	482	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:33:24,314	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 07:33:24,316	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:33:24,317	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:33:24,402	WebContainer : 2	exit	1	88	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:36:33,912	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:36:33,915	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:36:33,915	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:36:34,074	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:36:34,552	WebContainer : 4	exit	1	640	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:36:37,865	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:36:37,868	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:36:37,868	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:36:37,945	WebContainer : 0	exit	1	80	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:39:41,710	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:39:41,712	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:39:41,713	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:39:41,879	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:39:42,408	WebContainer : 2	exit	1	698	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:39:47,401	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:39:47,403	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:39:47,404	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:39:47,486	WebContainer : 4	exit	1	85	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:40:55,870	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:40:55,872	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:40:55,873	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:40:56,041	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:40:56,266	WebContainer : 0	exit	1	395	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:41:00,493	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:41:00,495	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:41:00,496	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:41:00,581	WebContainer : 3	exit	1	88	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:41:29,590	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 07:41:29,592	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:41:29,592	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:41:29,780	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:41:30,325	WebContainer : 1	exit	1	735	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:41:34,386	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 07:41:34,388	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:41:34,389	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:41:34,478	WebContainer : 1	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:44:01,526	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 07:44:01,528	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:44:01,529	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:44:01,837	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:44:02,115	WebContainer : 2	exit	1	589	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:44:11,893	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 07:44:11,895	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:44:11,895	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:44:11,986	WebContainer : 0	exit	1	93	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:50:38,985	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:50:38,987	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:50:38,988	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:50:39,152	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:50:39,433	WebContainer : 0	exit	1	448	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:50:41,532	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:50:41,534	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:50:41,534	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:50:41,703	WebContainer : 2	exit	1	171	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 07:55:17,770	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 07:55:17,772	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:55:17,773	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:55:17,949	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 07:55:18,173	WebContainer : 0	exit	1	403	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 07:55:23,019	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 07:55:23,021	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:55:23,022	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 07:55:23,104	WebContainer : 1	exit	1	85	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:01:48,346	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:01:48,349	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:01:48,350	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:01:48,539	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:01:49,271	WebContainer : 2	exit	1	925	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:01:54,029	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:01:54,032	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:01:54,032	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:01:54,125	WebContainer : 4	exit	1	96	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:05:20,108	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:05:20,110	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:05:20,112	WebContainer : 2	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:05:20,288	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:05:20,626	WebContainer : 2	exit	1	518	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:05:25,345	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:05:25,347	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:05:25,348	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:05:25,460	WebContainer : 0	exit	1	115	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:07:27,296	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:07:27,299	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:07:27,300	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:07:27,471	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:07:27,739	WebContainer : 2	exit	1	443	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:07:32,033	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:07:32,035	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:07:32,036	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:07:32,129	WebContainer : 2	exit	1	96	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:14:28,389	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:14:28,392	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:14:28,392	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:14:28,571	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:14:29,082	WebContainer : 3	exit	1	693	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:14:31,210	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 08:14:31,212	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:14:31,213	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:14:31,295	WebContainer : 2	exit	1	85	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:17:04,881	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:17:04,886	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:04,887	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:05,100	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:17:05,400	WebContainer : 1	exit	1	519	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:17:07,661	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:17:07,663	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:07,664	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:07,754	WebContainer : 1	exit	1	93	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:17:31,806	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:17:31,808	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:31,809	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:31,997	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:17:32,207	WebContainer : 1	exit	1	401	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:17:35,661	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:17:35,664	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:35,665	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:17:35,767	WebContainer : 5	exit	1	106	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:22:15,353	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:22:15,355	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:22:15,356	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:22:15,551	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:22:15,793	WebContainer : 3	exit	1	440	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:22:22,001	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 08:22:22,003	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:22:22,004	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:22:22,101	WebContainer : 3	exit	1	100	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:24:09,648	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:24:09,651	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:24:09,652	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:24:09,827	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:24:10,133	WebContainer : 0	exit	1	485	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:27:04,603	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:27:04,607	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:27:04,608	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:27:04,805	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:27:05,162	WebContainer : 5	exit	1	559	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:27:08,380	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 08:27:08,382	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:27:08,383	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:27:08,475	WebContainer : 1	exit	1	95	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:29:02,957	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:29:02,959	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:02,960	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:03,141	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:29:03,408	WebContainer : 4	exit	1	451	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:29:13,642	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 08:29:13,645	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:13,646	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:13,736	WebContainer : 4	exit	1	94	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:29:40,548	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:29:40,550	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:40,551	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:40,722	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:29:41,275	WebContainer : 3	exit	1	727	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:29:44,040	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:29:44,042	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:44,043	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:29:44,124	WebContainer : 4	exit	1	84	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:35:07,529	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:35:07,531	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:35:07,533	WebContainer : 5	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:35:12,888	WebContainer : 5	exit	1	5359	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:36:39,464	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:36:39,467	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:36:39,467	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:36:39,636	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:36:40,216	WebContainer : 3	exit	1	752	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:36:42,488	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:36:42,490	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:36:42,491	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:36:42,579	WebContainer : 4	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:37:42,884	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:37:42,887	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:37:42,888	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:37:43,082	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:37:43,314	WebContainer : 0	exit	1	430	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:37:46,467	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:37:46,470	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:37:46,471	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:37:46,559	WebContainer : 4	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:39:30,909	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:39:30,911	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:39:30,912	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:39:31,094	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:39:31,378	WebContainer : 0	exit	1	469	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:39:53,771	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:39:53,773	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:39:53,774	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:39:53,863	WebContainer : 2	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:40:21,274	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:40:21,276	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:21,276	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:21,445	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:40:21,997	WebContainer : 4	exit	1	724	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:40:25,564	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 08:40:25,567	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:25,567	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:25,658	WebContainer : 0	exit	1	94	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:40:46,447	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:40:46,458	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:46,459	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:46,653	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:40:46,997	WebContainer : 2	exit	1	550	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:40:49,376	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:40:49,378	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:49,379	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:40:49,474	WebContainer : 0	exit	1	98	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:42:03,844	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:42:03,846	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:42:03,847	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:42:04,022	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:42:04,602	WebContainer : 2	exit	1	758	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:42:07,611	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:42:07,613	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:42:07,614	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:42:07,707	WebContainer : 1	exit	1	96	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:45:07,762	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:45:07,765	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:07,767	WebContainer : 0	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:08,002	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:45:08,370	WebContainer : 0	exit	1	608	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:45:14,251	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:45:14,253	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:14,254	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:14,338	WebContainer : 4	exit	1	87	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:45:37,812	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:45:37,814	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:37,815	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:38,003	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:45:38,272	WebContainer : 5	exit	1	460	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:45:42,137	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:45:42,140	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:42,140	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:45:42,232	WebContainer : 4	exit	1	95	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:47:15,224	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:47:15,227	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:47:15,229	WebContainer : 0	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:47:15,420	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:47:15,986	WebContainer : 0	exit	1	762	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:47:18,607	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:47:18,609	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:47:18,610	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:47:24,128	WebContainer : 2	exit	1	5521	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:52:54,879	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:52:54,882	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:52:54,883	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:52:55,059	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:52:55,816	WebContainer : 3	exit	1	937	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:52:58,679	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:52:58,682	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:52:58,682	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:52:58,774	WebContainer : 3	exit	1	95	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:53:31,448	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 08:53:31,450	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:53:31,451	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:53:31,646	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:53:32,292	WebContainer : 3	exit	1	844	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:53:35,345	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 08:53:35,347	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:53:35,348	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:53:35,443	WebContainer : 2	exit	1	98	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:53:42,512	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:53:42,514	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:53:42,515	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:53:42,679	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:53:42,970	WebContainer : 3	exit	1	458	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:54:08,872	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:54:08,874	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:54:08,875	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:54:09,039	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:54:09,316	WebContainer : 3	exit	1	444	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:54:17,648	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:54:17,651	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:54:17,651	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:54:17,752	WebContainer : 0	exit	1	104	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:55:36,892	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:55:36,896	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:36,897	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:37,071	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:55:37,328	WebContainer : 3	exit	1	436	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:55:39,292	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:55:39,294	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:39,303	WebContainer : 2	exit	2	9	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:39,474	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:55:39,654	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:55:39,656	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:39,657	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:39,741	WebContainer : 3	exit	1	87	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:55:39,796	WebContainer : 2	exit	1	504	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:55:41,674	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:55:41,676	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:41,677	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:55:41,761	WebContainer : 3	exit	1	87	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 08:59:31,058	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 08:59:31,060	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:59:31,061	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:59:31,243	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 08:59:31,589	WebContainer : 0	exit	1	531	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 08:59:34,919	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 08:59:34,921	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:59:34,922	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 08:59:35,018	WebContainer : 1	exit	1	99	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:07:04,167	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:07:04,169	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:07:04,170	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:07:04,390	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:07:05,090	WebContainer : 4	exit	1	923	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:07:08,449	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:07:08,451	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:07:08,452	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:07:08,542	WebContainer : 5	exit	1	93	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:09:01,536	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:09:01,538	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:09:01,539	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:09:01,702	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:09:01,977	WebContainer : 3	exit	1	441	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:09:04,289	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:09:04,292	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:09:04,293	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:09:04,387	WebContainer : 0	exit	1	98	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:11:31,933	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 09:11:31,935	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:11:31,936	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:11:32,109	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:11:32,508	WebContainer : 3	exit	1	575	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:11:35,822	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 09:11:35,824	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:11:35,825	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:11:35,909	WebContainer : 4	exit	1	87	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:22:56,937	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:22:56,939	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:22:56,940	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:22:57,168	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:22:57,774	WebContainer : 2	exit	1	837	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:23:03,596	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:23:03,599	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:23:03,600	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:23:03,699	WebContainer : 2	exit	1	103	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:24:22,102	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:24:22,104	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:24:22,106	WebContainer : 0	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:24:22,288	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:24:22,859	WebContainer : 0	exit	1	757	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:24:25,794	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:24:25,797	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:24:25,797	WebContainer : 3	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:24:25,899	WebContainer : 3	exit	1	105	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:35:51,552	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:35:51,554	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:35:51,556	WebContainer : 0	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:35:51,806	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:35:52,308	WebContainer : 0	exit	1	756	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:35:54,436	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:35:54,439	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:35:54,439	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:35:54,530	WebContainer : 4	exit	1	94	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:35:59,543	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:35:59,546	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:35:59,546	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:35:59,720	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:36:00,027	WebContainer : 4	exit	1	484	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:36:01,540	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:36:01,542	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:36:01,543	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:36:01,632	WebContainer : 2	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:36:12,122	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 09:36:12,125	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:36:12,125	WebContainer : 4	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:36:12,312	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:36:12,891	WebContainer : 4	exit	1	769	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:36:16,304	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 09:36:16,306	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:36:16,307	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:36:16,434	WebContainer : 5	exit	1	130	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:38:26,678	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:38:26,680	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:38:26,681	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:38:26,873	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:38:27,480	WebContainer : 4	exit	1	802	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:38:31,390	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:38:31,392	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:38:31,393	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:38:31,482	WebContainer : 3	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:38:58,062	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:38:58,064	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:38:58,066	WebContainer : 5	exit	2	2	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:38:58,256	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:38:58,770	WebContainer : 5	exit	1	708	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:39:03,432	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:39:03,435	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:39:03,436	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:39:03,527	WebContainer : 0	exit	1	95	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:47:40,658	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 09:47:40,661	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:47:40,662	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:47:41,148	WebContainer : 5	exit	1	490	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:49:44,897	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:49:44,899	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:49:44,900	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:49:45,098	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:49:45,321	WebContainer : 1	exit	1	424	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:50:17,873	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:50:17,875	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:50:17,876	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:50:18,071	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:50:18,326	WebContainer : 0	exit	1	453	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:50:22,628	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:50:22,631	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:50:22,632	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:50:22,720	WebContainer : 3	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:51:11,603	WebContainer : 4	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:51:11,605	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:51:11,606	WebContainer : 4	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:51:11,797	WebContainer : 4	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:51:12,042	WebContainer : 4	exit	1	439	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:51:16,611	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:51:16,613	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:51:16,614	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:51:16,701	WebContainer : 1	exit	1	90	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:53:20,810	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:53:20,813	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:53:20,814	WebContainer : 5	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:53:21,011	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:53:21,725	WebContainer : 5	exit	1	915	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:53:25,447	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:53:25,449	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:53:25,449	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:53:25,533	WebContainer : 0	exit	1	85	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 09:53:27,746	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:53:27,749	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:53:27,750	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:53:27,940	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:53:28,225	WebContainer : 2	exit	2	285	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:53:28,560	WebContainer : 2	exit	1	814	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:58:17,193	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 09:58:17,195	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:58:17,195	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:58:17,421	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 09:58:18,334	WebContainer : 2	exit	1	1142	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 09:58:21,833	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 09:58:21,835	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:58:21,836	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 09:58:21,925	WebContainer : 2	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:04:04,098	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:04:04,101	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:04:04,102	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:04:04,280	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:04:04,931	WebContainer : 1	exit	1	833	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:04:15,732	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 10:04:15,735	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:04:15,735	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:04:15,824	WebContainer : 0	exit	1	92	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:11:00,703	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 10:11:00,705	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:00,706	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:00,897	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:11:01,191	WebContainer : 1	exit	1	488	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:11:07,165	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 10:11:07,169	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:07,170	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:07,265	WebContainer : 0	exit	1	100	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:11:54,094	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:11:54,097	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:54,098	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:54,288	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:11:54,518	WebContainer : 2	exit	1	424	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:11:59,874	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 10:11:59,876	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:59,877	WebContainer : 1	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:11:59,979	WebContainer : 1	exit	1	105	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:12:10,497	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:12:10,500	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:12:10,500	WebContainer : 2	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:12:10,673	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:12:11,098	WebContainer : 2	exit	1	601	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:12:14,369	WebContainer : 1	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 10:12:14,371	WebContainer : 1	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:12:14,371	WebContainer : 1	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:12:14,455	WebContainer : 1	exit	1	86	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:13:56,401	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:13:56,403	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:13:56,407	WebContainer : 0	exit	2	4	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:14:01,738	WebContainer : 0	exit	1	5337	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:18:27,654	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:18:27,657	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:18:27,658	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:18:27,849	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:18:28,115	WebContainer : 3	exit	1	461	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:18:33,737	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 10:18:33,739	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:18:33,740	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:18:33,828	WebContainer : 0	exit	1	91	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:19:35,816	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:19:35,819	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:35,820	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:36,032	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:19:36,271	WebContainer : 0	exit	1	455	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:19:40,881	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 10:19:40,884	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:40,884	WebContainer : 0	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:40,974	WebContainer : 0	exit	1	93	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:19:42,378	WebContainer : 2	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do]
+2018-09-22 10:19:42,380	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:42,381	WebContainer : 2	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:42,548	WebContainer : 2	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:19:42,796	WebContainer : 2	exit	1	418	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:19:46,594	WebContainer : 0	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do]
+2018-09-22 10:19:46,596	WebContainer : 0	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:46,597	WebContainer : 0	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:19:46,699	WebContainer : 0	exit	1	105	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/android/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]
+2018-09-22 10:28:37,666	WebContainer : 3	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do]
+2018-09-22 10:28:37,668	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:28:37,669	WebContainer : 3	exit	2	1	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:28:37,895	WebContainer : 3	entry	2	 	br.com.bradesco.mobile.bvp.aceite.apresentacao.AceiteMenu.execute	
+2018-09-22 10:28:38,098	WebContainer : 3	exit	1	432	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/login.do, lastUri=/WEB-INF/jsp/webkit/layout.jsp]
+2018-09-22 10:28:40,459	WebContainer : 5	entry	1	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do]
+2018-09-22 10:28:40,462	WebContainer : 5	entry	2	 	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:28:40,462	WebContainer : 5	exit	2	0	br.com.bradesco.mobile.comum.log.BaseContextFilter.buildContextLogData	
+2018-09-22 10:28:40,550	WebContainer : 5	exit	1	91	br.com.bradesco.mobile.comum.log.BaseContextFilter.doFilter	[requestUri=/mobilebvp_aceitedigital/iphone/menu.do, lastUri=/WEB-INF/jsp/webkit/IntegracaoSistema.jsp]

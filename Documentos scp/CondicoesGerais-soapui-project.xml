@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d67910c5-8d62-4119-9939-0c746d1e340b" activeEnvironment="Default" name="CondicoesGerais" soapui-version="5.4.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="9bd27520-caa0-44d0-8598-bba4659428d6" wsaVersion="NONE" name="GerenciaDocumentoSOAP" type="wsdl" bindingName="{http://webservice.documento.vprs.bradseg.com.br/documento/v1}GerenciaDocumentoSOAP" soapVersion="1_1" anonymous="optional" definition="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?wsdl"><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?wsdl</con:url><con:content><![CDATA[<!--File GrcDocumentoSrv.wsdl, application VPRS-Documento-->
+<wsdl:definitions name="GerenciaDocumento" targetNamespace="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:arq="http://canonico.documento.vprs.bradseg.com.br" xmlns:dcg="http://canonico.documento.vprs.bradseg.com.br" xmlns:doc="http://canonico.documento.vprs.bradseg.com.br" xmlns:dpr="http://canonico.documento.vprs.bradseg.com.br" xmlns:fau="http://bradescoseguros.com.br/canonicalmodel/canonicalmodel/v1/architecture/common/fault" xmlns:mod="http://canonico.documento.vprs.bradseg.com.br" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tdc="http://canonico.documento.vprs.bradseg.com.br" xmlns:tns="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <generatedXSD location="GrcDocumentoSrv_InlineSchema1.xsd"/>
+        <binding hasEncoding="false" imported="true" name="GerenciaDocumentoSOAP" originalBindingStyle="document"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions">
+      <xsd:import namespace="http://bradescoseguros.com.br/canonicalmodel/canonicalmodel/v1/architecture/common/fault" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd0"/>
+      <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd1"/>
+      <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd2"/>
+      <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd3"/>
+      <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd4"/>
+      <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd5"/>
+      <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd6"/>
+      <xsd:include schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd7"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="incluirPropostaRequest">
+    <wsdl:part element="tns:incluirPropostaRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="incluirPropostaResponse">
+    <wsdl:part element="tns:incluirPropostaResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="incluirCertificadoRequest">
+    <wsdl:part element="tns:incluirCertificadoRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="incluirCertificadoResponse">
+    <wsdl:part element="tns:incluirCertificadoResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="incluirDeclaracaoSaudeRequest">
+    <wsdl:part element="tns:incluirDeclaracaoSaudeRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="incluirDeclaracaoSaudeResponse">
+    <wsdl:part element="tns:incluirDeclaracaoSaudeResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarDocumentoRequest">
+    <wsdl:part element="tns:recuperarDocumentoRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarDocumentoResponse">
+    <wsdl:part element="tns:recuperarDocumentoResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarDocumentoPorChaveNegocioRequest">
+    <wsdl:part element="tns:recuperarDocumentoPorChaveNegocioRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarDocumentoPorChaveNegocioResponse">
+    <wsdl:part element="tns:recuperarDocumentoPorChaveNegocioResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarQuantidadeModulosPropostaRequest">
+    <wsdl:part element="tns:recuperarQuantidadeModulosPropostaRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarQuantidadeModulosPropostaResponse">
+    <wsdl:part element="tns:recuperarQuantidadeModulosPropostaResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="transmitirPropostaRequest">
+    <wsdl:part element="tns:transmitirPropostaRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="transmitirPropostaResponse">
+    <wsdl:part element="tns:transmitirPropostaResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarTermoCondicoesGeraisPorProdutoRequest">
+    <wsdl:part element="tns:recuperarTermoCondicoesGeraisPorProdutoRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarTermoCondicoesGeraisPorProdutoResponse">
+    <wsdl:part element="tns:recuperarTermoCondicoesGeraisPorProdutoResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarTermoCondicoesGeraisPorDadosTermoRequest">
+    <wsdl:part element="tns:recuperarTermoCondicoesGeraisPorDadosTermoRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarTermoCondicoesGeraisPorDadosTermoResponse">
+    <wsdl:part element="tns:recuperarTermoCondicoesGeraisPorDadosTermoResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="gerarPDFRequest">
+    <wsdl:part element="tns:gerarPDFRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="gerarPDFResponse">
+    <wsdl:part element="tns:gerarPDFResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarNumeroCertificadoRequest">
+    <wsdl:part element="tns:recuperarNumeroCertificadoRequest" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="recuperarNumeroCertificadoResponse">
+    <wsdl:part element="tns:recuperarNumeroCertificadoResponse" name="payload"/>
+  </wsdl:message>
+  <wsdl:message name="faultMessage">
+    <wsdl:part element="fau:fault" name="payload"/>
+  </wsdl:message>
+  <wsdl:portType name="GerenciaDocumentoPortType">
+    <wsdl:operation name="incluirProposta">
+      <wsdl:input message="tns:incluirPropostaRequest"/>
+      <wsdl:output message="tns:incluirPropostaResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="incluirCertificado">
+      <wsdl:input message="tns:incluirCertificadoRequest"/>
+      <wsdl:output message="tns:incluirCertificadoResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="incluirDeclaracaoSaude">
+      <wsdl:input message="tns:incluirDeclaracaoSaudeRequest"/>
+      <wsdl:output message="tns:incluirDeclaracaoSaudeResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarDocumento">
+      <wsdl:input message="tns:recuperarDocumentoRequest"/>
+      <wsdl:output message="tns:recuperarDocumentoResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarDocumentoPorChaveNegocio">
+      <wsdl:input message="tns:recuperarDocumentoPorChaveNegocioRequest"/>
+      <wsdl:output message="tns:recuperarDocumentoPorChaveNegocioResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarQuantidadeModulosProposta">
+      <wsdl:input message="tns:recuperarQuantidadeModulosPropostaRequest"/>
+      <wsdl:output message="tns:recuperarQuantidadeModulosPropostaResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="transmitirProposta">
+      <wsdl:input message="tns:transmitirPropostaRequest"/>
+      <wsdl:output message="tns:transmitirPropostaResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarTermoCondicoesGeraisPorProduto">
+      <wsdl:input message="tns:recuperarTermoCondicoesGeraisPorProdutoRequest"/>
+      <wsdl:output message="tns:recuperarTermoCondicoesGeraisPorProdutoResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarTermoCondicoesGeraisPorDadosTermo">
+      <wsdl:input message="tns:recuperarTermoCondicoesGeraisPorDadosTermoRequest"/>
+      <wsdl:output message="tns:recuperarTermoCondicoesGeraisPorDadosTermoResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="gerarPDF">
+      <wsdl:input message="tns:gerarPDFRequest"/>
+      <wsdl:output message="tns:gerarPDFResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarNumeroCertificado">
+      <wsdl:input message="tns:recuperarNumeroCertificadoRequest"/>
+      <wsdl:output message="tns:recuperarNumeroCertificadoResponse"/>
+      <wsdl:fault message="tns:faultMessage" name="fault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GerenciaDocumentoSOAP" type="tns:GerenciaDocumentoPortType">
+    <soap11:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="incluirProposta">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirProposta"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="incluirCertificado">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirCertificado"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="incluirDeclaracaoSaude">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirDeclaracaoSaude"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarDocumento">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarDocumento"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarDocumentoPorChaveNegocio">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarDocumentoPorChaveNegocio"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarQuantidadeModulosProposta">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarQuantidadeModulosProposta"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="transmitirProposta">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/transmitirProposta"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarTermoCondicoesGeraisPorProduto">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarTermoCondicoesGeraisPorProduto"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarTermoCondicoesGeraisPorDadosTermo">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarTermoCondicoesGeraisPorDadosTermo"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="gerarPDF">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/gerarPDF"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarNumeroCertificado">
+      <soap11:operation soapAction="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarNumeroCertificado"/>
+      <wsdl:input>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap11:fault name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GerenciaDocumento">
+    <wsdl:port binding="tns:GerenciaDocumentoSOAP" name="GerenciaDocumentoSOAP">
+      <soap11:address location="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd0</con:url><con:content><![CDATA[<!--File XSD\common\v1\Fault.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://bradescoseguros.com.br/canonicalmodel/canonicalmodel/v1/architecture/common/fault" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:tns="http://bradescoseguros.com.br/canonicalmodel/canonicalmodel/v1/architecture/common/fault">
+  <xsd:complexType name="Fault">
+    <xsd:annotation>
+      <xsd:documentation>Entidade do modelo canonico corporativo, tem como funcao padronizar o layout de excecoes.
+				Versao: 1.0
+				Autor: Leandro Estrada
+	
+				Historico de revisao:
+				1.0 13-10.2015 Criacao da Entidade</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="codigo" nillable="false" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="descricao" nillable="false" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="tipo" nillable="false" type="tns:Tipo"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="sistemaOrigem" nillable="false" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="servicoOrigem" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="Tipo">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="NEGOCIO"/>
+      <xsd:enumeration value="TECNICO"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element ibmSchExtn:docRoot="true" name="fault" type="tns:Fault"/>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd1</con:url><con:content><![CDATA[<!--File XSD\documentovprs\v1\DadosDocumento.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://canonico.documento.vprs.bradseg.com.br" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:doc="http://canonico.documento.vprs.bradseg.com.br">
+  <xsd:group name="DadosDocumentoGroup">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="tipoDocumento" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="tipoEmissao" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="cia" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="sucursal" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="codigoProduto" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="numeroProposta" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="tipoPessoa" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="cpf" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="streamArquivo" type="xsd:string"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="ramo" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="apolice" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="chave" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataInicioVigencia" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataFimVigencia" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataEmissao" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:group>
+  <xsd:complexType name="DadosDocumentoType">
+    <xsd:sequence>
+      <xsd:group ref="doc:DadosDocumentoGroup"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd2</con:url><con:content><![CDATA[<!--File XSD\documentovprs\v1\TipoDocumento.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://canonico.documento.vprs.bradseg.com.br" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tdc="http://canonico.documento.vprs.bradseg.com.br">
+  <xsd:simpleType name="TipoDocumentoEnumType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="PROPOSTA"/>
+      <xsd:enumeration value="DPS_PDF"/>
+      <xsd:enumeration value="DPS_XML"/>
+      <xsd:enumeration value="CERTIFICADO"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd3</con:url><con:content><![CDATA[<!--File XSD\documentovprs\v1\Arquivo.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://canonico.documento.vprs.bradseg.com.br" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:arq="http://canonico.documento.vprs.bradseg.com.br">
+  <xsd:group name="ArquivoGroup">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="id" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="nomeArquivo" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="mimeType" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="arquivo" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:group>
+  <xsd:complexType name="ArquivoType">
+    <xsd:sequence>
+      <xsd:group ref="arq:ArquivoGroup"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd4</con:url><con:content><![CDATA[<!--File XSD\documentovprs\v1\DadosProposta.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://canonico.documento.vprs.bradseg.com.br" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dpr="http://canonico.documento.vprs.bradseg.com.br">
+  <xsd:simpleType name="SituacaoDocumentoEnumType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="ATIVO"/>
+      <xsd:enumeration value="CANCELADO"/>
+      <xsd:enumeration value="TODAS"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="TipoPessoaEnumType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="FISICA"/>
+      <xsd:enumeration value="JURIDICA"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:group name="DadosPropostaGroup">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="codigoGrupoProduto" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="codigoProduto" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="cpfCnpj" type="xsd:long"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="situacao" type="dpr:SituacaoDocumentoEnumType"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="tipoPessoa" type="dpr:TipoPessoaEnumType"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="canalVenda" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="codigoOrigem" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="prefixo" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="versao" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="arquivo" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:group>
+  <xsd:complexType name="DadosPropostaType">
+    <xsd:sequence>
+      <xsd:group ref="dpr:DadosPropostaGroup"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd5</con:url><con:content><![CDATA[<!--File XSD\documentovprs\v1\DadosModulo.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://canonico.documento.vprs.bradseg.com.br" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mod="http://canonico.documento.vprs.bradseg.com.br">
+  <xsd:group name="DadosModuloGroup">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="quantidadeModulosDisponiveis" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="quantidadeModulosComprados" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:group>
+  <xsd:complexType name="DadosModuloType">
+    <xsd:sequence>
+      <xsd:group ref="mod:DadosModuloGroup"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd6</con:url><con:content><![CDATA[<!--File XSD\documentovprs\v1\DadosTermoCondicoesGerais.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://canonico.documento.vprs.bradseg.com.br" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dcg="http://canonico.documento.vprs.bradseg.com.br">
+  <xsd:simpleType name="tipoCondicaoContratualEnumType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="GERAL"/>
+      <xsd:enumeration value="ESPECIFICA"/>
+      <xsd:enumeration value="CONTRATUAL"/>
+      <xsd:enumeration value="MANUAL_SEG"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:group name="DadosTermoCondicaoGeralGroup">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="arquivo" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="codigo" type="xsd:long"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="descricao" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataAtualizacao" type="xsd:dateTime"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataCadastro" type="xsd:dateTime"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataFimVigencia" type="xsd:dateTime"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataInicioVigencia" type="xsd:dateTime"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="nome" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="nomeArquivo" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="responsavelAtualizacao" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="responsavelCadastro" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="tipoCondicao" type="dcg:tipoCondicaoContratualEnumType"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="codigoProduto" type="xsd:long"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dataCadastroGeral" type="xsd:dateTime"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="responsavelCadastroGeral" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:group>
+  <xsd:complexType name="DadosTermoCondicaoGeralType">
+    <xsd:sequence>
+      <xsd:group ref="dcg:DadosTermoCondicaoGeralGroup"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd7</con:url><con:content><![CDATA[<!--File GrcDocumentoSrv_InlineSchema1.xsd, application VPRS-Documento-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:arq="http://canonico.documento.vprs.bradseg.com.br" xmlns:dcg="http://canonico.documento.vprs.bradseg.com.br" xmlns:doc="http://canonico.documento.vprs.bradseg.com.br" xmlns:dpr="http://canonico.documento.vprs.bradseg.com.br" xmlns:fau="http://bradescoseguros.com.br/canonicalmodel/canonicalmodel/v1/architecture/common/fault" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:mod="http://canonico.documento.vprs.bradseg.com.br" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tdc="http://canonico.documento.vprs.bradseg.com.br" xmlns:tns="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <xsd:import namespace="http://bradescoseguros.com.br/canonicalmodel/canonicalmodel/v1/architecture/common/fault" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd0"/>
+  <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd1"/>
+  <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd2"/>
+  <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd3"/>
+  <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd4"/>
+  <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd5"/>
+  <xsd:import namespace="http://canonico.documento.vprs.bradseg.com.br" schemaLocation="http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento?xsd=xsd6"/>
+  <xsd:complexType name="incluirPropostaRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="proposta" type="arq:DadosDocumentoType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="incluirPropostaResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="sucesso" type="xsd:boolean"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="incluirCertificadoRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="certificado" type="arq:DadosDocumentoType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="incluirCertificadoResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="sucesso" type="xsd:boolean"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="incluirDeclaracaoSaudeRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="declaracao" type="arq:DadosDocumentoType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="incluirDeclaracaoSaudeResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="sucesso" type="xsd:boolean"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarDocumentoRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="tipoDocumento" type="arq:TipoDocumentoEnumType"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="codigoProduto" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="numeroProposta" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="cpf" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarDocumentoResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="arquivo" type="arq:ArquivoType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarDocumentoPorChaveNegocioRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="tipoDocumento" type="arq:TipoDocumentoEnumType"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="codigoProduto" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="chaveNegocio" type="xsd:string"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="cpf" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarDocumentoPorChaveNegocioResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="arquivo" type="arq:ArquivoType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarQuantidadeModulosPropostaRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="dadosProposta" type="arq:DadosPropostaType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarQuantidadeModulosPropostaResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="dadosModulo" type="arq:DadosModuloType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="transmitirPropostaRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="origemTransmissao" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="dadosProposta" type="arq:DadosPropostaType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="transmitirPropostaResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="retornoTransmissão" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarTermoCondicoesGeraisPorProdutoRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="codigoProduto" type="xsd:long"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarTermoCondicoesGeraisPorProdutoResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="termoCondicoesGerais" type="arq:DadosTermoCondicaoGeralType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarTermoCondicoesGeraisPorDadosTermoRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="codigoProduto" type="xsd:long"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="dataFimVigencia" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarTermoCondicoesGeraisPorDadosTermoResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="termoCondicoesGerais" type="arq:DadosTermoCondicaoGeralType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="gerarPDFRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="Arquivo" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="gerarPDFResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="arquivoPDF" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarNumeroCertificadoRequestType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="idProduto" type="xsd:int"/>
+      <xsd:element maxOccurs="1" minOccurs="1" name="idCanal" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="recuperarNumeroCertificadoResponseType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="numeroCertificado" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element ibmSchExtn:docRoot="true" name="incluirPropostaRequest" type="tns:incluirPropostaRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="incluirPropostaResponse" type="tns:incluirPropostaResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="incluirCertificadoRequest" type="tns:incluirCertificadoRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="incluirCertificadoResponse" type="tns:incluirCertificadoResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="incluirDeclaracaoSaudeRequest" type="tns:incluirDeclaracaoSaudeRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="incluirDeclaracaoSaudeResponse" type="tns:incluirDeclaracaoSaudeResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarDocumentoRequest" type="tns:recuperarDocumentoRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarDocumentoResponse" type="tns:recuperarDocumentoResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarDocumentoPorChaveNegocioRequest" type="tns:recuperarDocumentoPorChaveNegocioRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarDocumentoPorChaveNegocioResponse" type="tns:recuperarDocumentoPorChaveNegocioResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarQuantidadeModulosPropostaRequest" type="tns:recuperarQuantidadeModulosPropostaRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarQuantidadeModulosPropostaResponse" type="tns:recuperarQuantidadeModulosPropostaResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="transmitirPropostaRequest" type="tns:transmitirPropostaRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="transmitirPropostaResponse" type="tns:transmitirPropostaResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarTermoCondicoesGeraisPorProdutoRequest" type="tns:recuperarTermoCondicoesGeraisPorProdutoRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarTermoCondicoesGeraisPorProdutoResponse" type="tns:recuperarTermoCondicoesGeraisPorProdutoResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarTermoCondicoesGeraisPorDadosTermoRequest" type="tns:recuperarTermoCondicoesGeraisPorDadosTermoRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarTermoCondicoesGeraisPorDadosTermoResponse" type="tns:recuperarTermoCondicoesGeraisPorDadosTermoResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="gerarPDFRequest" type="tns:gerarPDFRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="gerarPDFResponse" type="tns:gerarPDFResponseType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarNumeroCertificadoRequest" type="tns:recuperarNumeroCertificadoRequestType"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="recuperarNumeroCertificadoResponse" type="tns:recuperarNumeroCertificadoResponseType"/>
+</xsd:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint></con:endpoints><con:operation id="a51e7b21-c364-48a1-8166-0c626348256e" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/gerarPDF" name="gerarPDF" bindingOperationName="gerarPDF" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="55c5f7fe-bd55-41fc-b1c9-fd19c3d57c1e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:gerarPDFRequest>\r
+         <v1:Arquivo>?</v1:Arquivo>\r
+      </v1:gerarPDFRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/gerarPDF"/></con:call></con:operation><con:operation id="bf1c51b4-7413-47fb-8216-90e5300792ab" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirCertificado" name="incluirCertificado" bindingOperationName="incluirCertificado" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="18367802-7a97-4a74-a125-d02e0dab9986" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:can="http://canonico.documento.vprs.bradseg.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:incluirCertificadoRequest>\r
+         <v1:certificado>\r
+            <!--Optional:-->\r
+            <can:tipoDocumento>?</can:tipoDocumento>\r
+            <!--Optional:-->\r
+            <can:tipoEmissao>?</can:tipoEmissao>\r
+            <!--Optional:-->\r
+            <can:cia>?</can:cia>\r
+            <!--Optional:-->\r
+            <can:sucursal>?</can:sucursal>\r
+            <!--Optional:-->\r
+            <can:codigoProduto>?</can:codigoProduto>\r
+            <!--Optional:-->\r
+            <can:numeroProposta>?</can:numeroProposta>\r
+            <!--Optional:-->\r
+            <can:tipoPessoa>?</can:tipoPessoa>\r
+            <!--Optional:-->\r
+            <can:cpf>?</can:cpf>\r
+            <!--Optional:-->\r
+            <can:streamArquivo>?</can:streamArquivo>\r
+            <!--Zero or more repetitions:-->\r
+            <can:ramo>?</can:ramo>\r
+            <!--Optional:-->\r
+            <can:apolice>?</can:apolice>\r
+            <!--Optional:-->\r
+            <can:chave>?</can:chave>\r
+            <!--Optional:-->\r
+            <can:dataInicioVigencia>?</can:dataInicioVigencia>\r
+            <!--Optional:-->\r
+            <can:dataFimVigencia>?</can:dataFimVigencia>\r
+            <!--Optional:-->\r
+            <can:dataEmissao>?</can:dataEmissao>\r
+         </v1:certificado>\r
+      </v1:incluirCertificadoRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirCertificado"/></con:call></con:operation><con:operation id="decda306-b160-4daf-b4ef-8daaa286f257" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirDeclaracaoSaude" name="incluirDeclaracaoSaude" bindingOperationName="incluirDeclaracaoSaude" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8f71e4dd-b934-44a0-b5a3-f26620f53362" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:can="http://canonico.documento.vprs.bradseg.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:incluirDeclaracaoSaudeRequest>\r
+         <v1:declaracao>\r
+            <!--Optional:-->\r
+            <can:tipoDocumento>?</can:tipoDocumento>\r
+            <!--Optional:-->\r
+            <can:tipoEmissao>?</can:tipoEmissao>\r
+            <!--Optional:-->\r
+            <can:cia>?</can:cia>\r
+            <!--Optional:-->\r
+            <can:sucursal>?</can:sucursal>\r
+            <!--Optional:-->\r
+            <can:codigoProduto>?</can:codigoProduto>\r
+            <!--Optional:-->\r
+            <can:numeroProposta>?</can:numeroProposta>\r
+            <!--Optional:-->\r
+            <can:tipoPessoa>?</can:tipoPessoa>\r
+            <!--Optional:-->\r
+            <can:cpf>?</can:cpf>\r
+            <!--Optional:-->\r
+            <can:streamArquivo>?</can:streamArquivo>\r
+            <!--Zero or more repetitions:-->\r
+            <can:ramo>?</can:ramo>\r
+            <!--Optional:-->\r
+            <can:apolice>?</can:apolice>\r
+            <!--Optional:-->\r
+            <can:chave>?</can:chave>\r
+            <!--Optional:-->\r
+            <can:dataInicioVigencia>?</can:dataInicioVigencia>\r
+            <!--Optional:-->\r
+            <can:dataFimVigencia>?</can:dataFimVigencia>\r
+            <!--Optional:-->\r
+            <can:dataEmissao>?</can:dataEmissao>\r
+         </v1:declaracao>\r
+      </v1:incluirDeclaracaoSaudeRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirDeclaracaoSaude"/></con:call></con:operation><con:operation id="08acaede-c4a2-438f-b795-0e8f1584e3d5" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirProposta" name="incluirProposta" bindingOperationName="incluirProposta" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2a8b4992-7bd2-4d26-a60d-b98dda9c3487" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:can="http://canonico.documento.vprs.bradseg.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:incluirPropostaRequest>\r
+         <v1:proposta>\r
+            <!--Optional:-->\r
+            <can:tipoDocumento>?</can:tipoDocumento>\r
+            <!--Optional:-->\r
+            <can:tipoEmissao>?</can:tipoEmissao>\r
+            <!--Optional:-->\r
+            <can:cia>?</can:cia>\r
+            <!--Optional:-->\r
+            <can:sucursal>?</can:sucursal>\r
+            <!--Optional:-->\r
+            <can:codigoProduto>?</can:codigoProduto>\r
+            <!--Optional:-->\r
+            <can:numeroProposta>?</can:numeroProposta>\r
+            <!--Optional:-->\r
+            <can:tipoPessoa>?</can:tipoPessoa>\r
+            <!--Optional:-->\r
+            <can:cpf>?</can:cpf>\r
+            <!--Optional:-->\r
+            <can:streamArquivo>?</can:streamArquivo>\r
+            <!--Zero or more repetitions:-->\r
+            <can:ramo>?</can:ramo>\r
+            <!--Optional:-->\r
+            <can:apolice>?</can:apolice>\r
+            <!--Optional:-->\r
+            <can:chave>?</can:chave>\r
+            <!--Optional:-->\r
+            <can:dataInicioVigencia>?</can:dataInicioVigencia>\r
+            <!--Optional:-->\r
+            <can:dataFimVigencia>?</can:dataFimVigencia>\r
+            <!--Optional:-->\r
+            <can:dataEmissao>?</can:dataEmissao>\r
+         </v1:proposta>\r
+      </v1:incluirPropostaRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/incluirProposta"/></con:call></con:operation><con:operation id="be971cd7-eeb3-4917-9942-9912d46f3e57" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarDocumento" name="recuperarDocumento" bindingOperationName="recuperarDocumento" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4d4761d0-20ec-44e4-bc44-d5693fbcb64c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:recuperarDocumentoRequest>\r
+         <v1:tipoDocumento>?</v1:tipoDocumento>\r
+         <v1:codigoProduto>?</v1:codigoProduto>\r
+         <v1:numeroProposta>?</v1:numeroProposta>\r
+         <v1:cpf>?</v1:cpf>\r
+      </v1:recuperarDocumentoRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarDocumento"/></con:call></con:operation><con:operation id="eb23d8bf-eb7f-4205-b7f8-46c08d5cb2e8" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarDocumentoPorChaveNegocio" name="recuperarDocumentoPorChaveNegocio" bindingOperationName="recuperarDocumentoPorChaveNegocio" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="233330b8-2424-4f0d-8d5d-b70aca6a67f1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:recuperarDocumentoPorChaveNegocioRequest>\r
+         <v1:tipoDocumento>?</v1:tipoDocumento>\r
+         <v1:codigoProduto>?</v1:codigoProduto>\r
+         <v1:chaveNegocio>?</v1:chaveNegocio>\r
+         <v1:cpf>?</v1:cpf>\r
+      </v1:recuperarDocumentoPorChaveNegocioRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarDocumentoPorChaveNegocio"/></con:call></con:operation><con:operation id="dd149c24-e4f9-46a1-a1dc-23e77810490a" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarNumeroCertificado" name="recuperarNumeroCertificado" bindingOperationName="recuperarNumeroCertificado" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="fc4f3a21-f93a-4e52-90c1-b3090c166bde" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:recuperarNumeroCertificadoRequest>\r
+         <v1:idProduto>?</v1:idProduto>\r
+         <v1:idCanal>?</v1:idCanal>\r
+      </v1:recuperarNumeroCertificadoRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarNumeroCertificado"/></con:call></con:operation><con:operation id="4be46586-93e7-49c4-b4c6-b741b4abd1de" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarQuantidadeModulosProposta" name="recuperarQuantidadeModulosProposta" bindingOperationName="recuperarQuantidadeModulosProposta" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7e0144a5-be84-4af1-b921-35f73c1d2ae9" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:can="http://canonico.documento.vprs.bradseg.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:recuperarQuantidadeModulosPropostaRequest>\r
+         <v1:dadosProposta>\r
+            <!--Optional:-->\r
+            <can:codigoGrupoProduto>?</can:codigoGrupoProduto>\r
+            <!--Optional:-->\r
+            <can:codigoProduto>?</can:codigoProduto>\r
+            <!--Optional:-->\r
+            <can:cpfCnpj>?</can:cpfCnpj>\r
+            <!--Optional:-->\r
+            <can:situacao>?</can:situacao>\r
+            <!--Optional:-->\r
+            <can:tipoPessoa>?</can:tipoPessoa>\r
+            <!--Optional:-->\r
+            <can:canalVenda>?</can:canalVenda>\r
+            <!--Optional:-->\r
+            <can:codigoOrigem>?</can:codigoOrigem>\r
+            <!--Optional:-->\r
+            <can:prefixo>?</can:prefixo>\r
+            <!--Optional:-->\r
+            <can:versao>?</can:versao>\r
+            <!--Optional:-->\r
+            <can:arquivo>?</can:arquivo>\r
+         </v1:dadosProposta>\r
+      </v1:recuperarQuantidadeModulosPropostaRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarQuantidadeModulosProposta"/></con:call></con:operation><con:operation id="15db8936-881e-4ae5-9194-c0356aaf9383" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarTermoCondicoesGeraisPorDadosTermo" name="recuperarTermoCondicoesGeraisPorDadosTermo" bindingOperationName="recuperarTermoCondicoesGeraisPorDadosTermo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1e029432-c6bb-496e-a65f-51d038e3f31c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:recuperarTermoCondicoesGeraisPorDadosTermoRequest>\r
+         <v1:codigoProduto>?</v1:codigoProduto>\r
+         <v1:dataFimVigencia>?</v1:dataFimVigencia>\r
+      </v1:recuperarTermoCondicoesGeraisPorDadosTermoRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarTermoCondicoesGeraisPorDadosTermo"/></con:call></con:operation><con:operation id="c4d61ab6-5e70-4dd7-835c-60f4ab3beecb" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarTermoCondicoesGeraisPorProduto" name="recuperarTermoCondicoesGeraisPorProduto" bindingOperationName="recuperarTermoCondicoesGeraisPorProduto" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="58a8e338-46c5-4a7b-a91f-efb520611651" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:recuperarTermoCondicoesGeraisPorProdutoRequest>\r
+         <v1:codigoProduto>601</v1:codigoProduto>\r
+      </v1:recuperarTermoCondicoesGeraisPorProdutoRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/recuperarTermoCondicoesGeraisPorProduto"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="070168b3-c2c1-4f76-b8a8-5e4bd915c03d" isOneWay="false" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/transmitirProposta" name="transmitirProposta" bindingOperationName="transmitirProposta" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e0a7f148-83d5-4548-9581-96c7b14faf48" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws-mb.dsv.bradseg.com.br:7800/VPRS-Documento</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://webservice.documento.vprs.bradseg.com.br/documento/v1" xmlns:can="http://canonico.documento.vprs.bradseg.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <v1:transmitirPropostaRequest>\r
+         <v1:origemTransmissao>?</v1:origemTransmissao>\r
+         <v1:dadosProposta>\r
+            <!--Optional:-->\r
+            <can:codigoGrupoProduto>?</can:codigoGrupoProduto>\r
+            <!--Optional:-->\r
+            <can:codigoProduto>?</can:codigoProduto>\r
+            <!--Optional:-->\r
+            <can:cpfCnpj>?</can:cpfCnpj>\r
+            <!--Optional:-->\r
+            <can:situacao>?</can:situacao>\r
+            <!--Optional:-->\r
+            <can:tipoPessoa>?</can:tipoPessoa>\r
+            <!--Optional:-->\r
+            <can:canalVenda>?</can:canalVenda>\r
+            <!--Optional:-->\r
+            <can:codigoOrigem>?</can:codigoOrigem>\r
+            <!--Optional:-->\r
+            <can:prefixo>?</can:prefixo>\r
+            <!--Optional:-->\r
+            <can:versao>?</can:versao>\r
+            <!--Optional:-->\r
+            <can:arquivo>?</can:arquivo>\r
+         </v1:dadosProposta>\r
+      </v1:transmitirPropostaRequest>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://webservice.documento.vprs.bradseg.com.br/documento/v1/transmitirProposta"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
