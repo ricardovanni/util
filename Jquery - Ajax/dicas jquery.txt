@@ -1,0 +1,3 @@
+
+// formata o valor na moeda corrente (R$ 10,00)
+var texto = valor.toLocaleString("pt-BR", { style: "currency" , currency:"BRL"});
